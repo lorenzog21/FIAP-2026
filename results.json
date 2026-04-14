@@ -1,0 +1,162 @@
+[
+    {
+        "image": "applehealthy10.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.81,
+            "Apple___Black_rot": 0.19
+        },
+        "predicted_class": "Apple___healthy"
+    },
+    {
+        "image": "applerot10.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.27,
+            "Apple___Black_rot": 0.73
+        },
+        "predicted_class": "Apple___Black_rot"
+    },
+    {
+        "image": "applehealthy8.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.82,
+            "Apple___Black_rot": 0.18
+        },
+        "predicted_class": "Apple___healthy"
+    },
+    {
+        "image": "applehealthy9.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.78,
+            "Apple___Black_rot": 0.22
+        },
+        "predicted_class": "Apple___healthy"
+    },
+    {
+        "image": "applerot8.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.3,
+            "Apple___Black_rot": 0.7
+        },
+        "predicted_class": "Apple___Black_rot"
+    },
+    {
+        "image": "applerot9.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.29,
+            "Apple___Black_rot": 0.71
+        },
+        "predicted_class": "Apple___Black_rot"
+    },
+    {
+        "image": "applerot7.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.2,
+            "Apple___Black_rot": 0.8
+        },
+        "predicted_class": "Apple___Black_rot"
+    },
+    {
+        "image": "applehealthy2.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.915,
+            "Apple___Black_rot": 0.085
+        },
+        "predicted_class": "Apple___healthy"
+    },
+    {
+        "image": "applehealthy3.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.995,
+            "Apple___Black_rot": 0.005
+        },
+        "predicted_class": "Apple___healthy"
+    },
+    {
+        "image": "applerot6.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.22,
+            "Apple___Black_rot": 0.78
+        },
+        "predicted_class": "Apple___Black_rot"
+    },
+    {
+        "image": "applerot4.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.355,
+            "Apple___Black_rot": 0.645
+        },
+        "predicted_class": "Apple___Black_rot"
+    },
+    {
+        "image": "applehealthy1.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.935,
+            "Apple___Black_rot": 0.065
+        },
+        "predicted_class": "Apple___healthy"
+    },
+    {
+        "image": "applerot5.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.245,
+            "Apple___Black_rot": 0.755
+        },
+        "predicted_class": "Apple___Black_rot"
+    },
+    {
+        "image": "applerot1.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.815,
+            "Apple___Black_rot": 0.185
+        },
+        "predicted_class": "Apple___healthy"
+    },
+    {
+        "image": "applehealthy4.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.755,
+            "Apple___Black_rot": 0.245
+        },
+        "predicted_class": "Apple___healthy"
+    },
+    {
+        "image": "applehealthy5.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.85,
+            "Apple___Black_rot": 0.15
+        },
+        "predicted_class": "Apple___healthy"
+    },
+    {
+        "image": "applerot2.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.19,
+            "Apple___Black_rot": 0.81
+        },
+        "predicted_class": "Apple___Black_rot"
+    },
+    {
+        "image": "applehealthy7.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.915,
+            "Apple___Black_rot": 0.085
+        },
+        "predicted_class": "Apple___healthy"
+    },
+    {
+        "image": "applehealthy6.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.995,
+            "Apple___Black_rot": 0.005
+        },
+        "predicted_class": "Apple___healthy"
+    },
+    {
+        "image": "applerot3.JPG",
+        "probabilities": {
+            "Apple___healthy": 0.535,
+            "Apple___Black_rot": 0.465
+        },
+        "predicted_class": "Apple___healthy"
+    }
+]
