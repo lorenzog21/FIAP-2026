@@ -6,6 +6,8 @@ from os import listdir;
 from sklearn.model_selection import train_test_split;
 from sklearn.ensemble import RandomForestClassifier;
 
+
+
 RANDOM_SEED = 0;
 LABEL2IDX = {
     "Apple___healthy": 0,
