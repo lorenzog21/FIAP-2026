@@ -1,0 +1,49 @@
+[
+  {
+    "talhao_id": "T1",
+    "folhas_analisadas": 6,
+    "folhas_com_black_rot": 4,
+    "pior_nivel_risco": "baixo",
+    "alertas_sensor": 0,
+    "causas": [],
+    "prioridade": "media",
+    "decisao": "Remover as folhas afetadas e reavaliar em 48 h."
+  },
+  {
+    "talhao_id": "T2",
+    "folhas_analisadas": 3,
+    "folhas_com_black_rot": 1,
+    "pior_nivel_risco": "medio",
+    "alertas_sensor": 4,
+    "causas": [
+      "RISCO_FUNGICO",
+      "SOLO_ENCHARCADO"
+    ],
+    "prioridade": "alta",
+    "decisao": "Remover as folhas afetadas e reavaliar em 48 h. Intensificar monitoramento foliar e evitar irrigação por aspersão. Suspender irrigação e verificar drenagem."
+  },
+  {
+    "talhao_id": "T3",
+    "folhas_analisadas": 6,
+    "folhas_com_black_rot": 1,
+    "pior_nivel_risco": "baixo",
+    "alertas_sensor": 9,
+    "causas": [
+      "SOLO_SECO"
+    ],
+    "prioridade": "alta",
+    "decisao": "Remover as folhas afetadas e reavaliar em 48 h. Acionar irrigação no talhão."
+  },
+  {
+    "talhao_id": "T4",
+    "folhas_analisadas": 5,
+    "folhas_com_black_rot": 3,
+    "pior_nivel_risco": "baixo",
+    "alertas_sensor": 4,
+    "causas": [
+      "SOLO_ENCHARCADO"
+    ],
+    "prioridade": "media",
+    "decisao": "Remover as folhas afetadas e reavaliar em 48 h. Suspender irrigação e verificar drenagem."
+  }
+]

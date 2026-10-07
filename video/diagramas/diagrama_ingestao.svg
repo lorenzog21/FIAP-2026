@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1080 560" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1080" height="560" fill="#ffffff"/>
+  <text x="540" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a1a">Fluxo de Ingestão — AgroSmart (ingest.py)</text>
+
+  <!-- Sources -->
+  <rect x="20" y="80" width="190" height="56" rx="10" fill="#eef7ee" stroke="#4a8f4a" stroke-width="1.5"/>
+  <text x="115" y="103" text-anchor="middle" font-size="12" fill="#1a1a1a">Imagens (.JPG)</text>
+  <text x="115" y="120" text-anchor="middle" font-size="10.5" fill="#555">drone / câmera manual</text>
+
+  <rect x="20" y="152" width="190" height="56" rx="10" fill="#eef7ee" stroke="#4a8f4a" stroke-width="1.5"/>
+  <text x="115" y="175" text-anchor="middle" font-size="12" fill="#1a1a1a">Sensor solo/clima</text>
+  <text x="115" y="192" text-anchor="middle" font-size="10.5" fill="#555">1 leitura/hora por talhão</text>
+
+  <rect x="20" y="224" width="190" height="56" rx="10" fill="#eef7ee" stroke="#4a8f4a" stroke-width="1.5"/>
+  <text x="115" y="247" text-anchor="middle" font-size="12" fill="#1a1a1a">Metadados de imagem</text>
+  <text x="115" y="264" text-anchor="middle" font-size="10.5" fill="#555">imagem ↔ talhão ↔ data</text>
+
+  <path d="M210,108 L260,175" stroke="#555" stroke-width="1.4" fill="none" marker-end="url(#arrow2)"/>
+  <path d="M210,180 L260,180" stroke="#555" stroke-width="1.4" fill="none" marker-end="url(#arrow2)"/>
+  <path d="M210,252 L260,185" stroke="#555" stroke-width="1.4" fill="none" marker-end="url(#arrow2)"/>
+
+  <!-- Validation -->
+  <rect x="265" y="130" width="190" height="100" rx="14" fill="#fdeeee" stroke="#c0504d" stroke-width="2"/>
+  <text x="360" y="158" text-anchor="middle" font-size="13" font-weight="700" fill="#7a2b28">VALIDAÇÃO</text>
+  <text x="280" y="180" font-size="10.5" fill="#5c1f1d">• imagem legível? (cv2)</text>
+  <text x="280" y="197" font-size="10.5" fill="#5c1f1d">• leitura em faixa</text>
+  <text x="280" y="212" font-size="10.5" fill="#5c1f1d">  plausível (0–100%, °C)?</text>
+
+  <!-- Branch: discard -->
+  <path d="M360,130 L360,90 L470,90" stroke="#c0504d" stroke-width="1.4" fill="none" marker-end="url(#arrow2)"/>
+  <rect x="475" y="62" width="190" height="56" rx="10" fill="#fdeeee" stroke="#c0504d" stroke-width="1.5"/>
+  <text x="570" y="85" text-anchor="middle" font-size="11.5" font-weight="700" fill="#7a2b28">Imagem ilegível</text>
+  <text x="570" y="103" text-anchor="middle" font-size="10.5" fill="#5c1f1d">descarta + loga (Silver)</text>
+
+  <!-- Branch: flag -->
+  <path d="M360,230 L360,270 L470,270" stroke="#c0504d" stroke-width="1.4" fill="none" marker-end="url(#arrow2)"/>
+  <rect x="475" y="242" width="190" height="56" rx="10" fill="#fdeeee" stroke="#c0504d" stroke-width="1.5"/>
+  <text x="570" y="265" text-anchor="middle" font-size="11.5" font-weight="700" fill="#7a2b28">Leitura fora de faixa</text>
+  <text x="570" y="283" text-anchor="middle" font-size="10.5" fill="#5c1f1d">mantém + flag_anomalia=true</text>
+
+  <!-- Main path continues to Bronze -->
+  <path d="M455,180 L700,180" stroke="#555" stroke-width="1.6" fill="none" marker-end="url(#arrow2)"/>
+  <text x="577" y="170" text-anchor="middle" font-size="10" fill="#555">registros válidos</text>
+
+  <!-- Bronze storage -->
+  <rect x="705" y="120" width="200" height="130" rx="14" fill="#f5e6d8" stroke="#b8794a" stroke-width="2"/>
+  <text x="805" y="148" text-anchor="middle" font-size="13.5" font-weight="700" fill="#7a4a24">BRONZE</text>
+  <text x="720" y="172" font-size="10.5" fill="#4a3020">batch_&lt;timestamp&gt;/</text>
+  <text x="720" y="189" font-size="10.5" fill="#4a3020">sensor_T1..T4.json</text>
+  <text x="720" y="209" font-size="10.5" fill="#4a3020">metadados_imagens_</text>
+  <text x="720" y="224" font-size="10.5" fill="#4a3020">&lt;timestamp&gt;.csv</text>
+  <text x="720" y="243" font-size="9.5" fill="#8a6a4a" font-style="italic">lote novo a cada execução</text>
+
+  <path d="M905,185 L960,185" stroke="#555" stroke-width="1.6" fill="none" marker-end="url(#arrow2)"/>
+
+  <!-- Log -->
+  <rect x="965" y="130" width="100" height="110" rx="12" fill="#eef2ff" stroke="#5b6fd4" stroke-width="1.5"/>
+  <text x="1015" y="155" text-anchor="middle" font-size="11" font-weight="700" fill="#2a3580">LOG</text>
+  <text x="978" y="176" font-size="9.5" fill="#2a3580">ingestion_</text>
+  <text x="978" y="190" font-size="9.5" fill="#2a3580">log.jsonl</text>
+  <text x="978" y="212" font-size="9" fill="#555">contagem vs.</text>
+  <text x="978" y="225" font-size="9" fill="#555">esperado</text>
+
+  <!-- discard/flag also feed the log -->
+  <path d="M665,90 L1015,90 L1015,130" stroke="#c0504d" stroke-width="1.2" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow2)"/>
+  <path d="M665,270 L1015,270 L1015,240" stroke="#c0504d" stroke-width="1.2" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow2)"/>
+
+  <!-- Example data box -->
+  <rect x="20" y="330" width="1040" height="210" rx="12" fill="#fafafa" stroke="#dddddd" stroke-width="1.5"/>
+  <text x="40" y="360" font-size="14" font-weight="700" fill="#1a1a1a">Exemplo de dado ingerido (Bronze)</text>
+
+  <text x="40" y="386" font-size="11.5" font-weight="700" fill="#333">sensor_T1.json (trecho)</text>
+  <rect x="40" y="396" width="480" height="120" rx="6" fill="#ffffff" stroke="#ddd"/>
+  <text x="52" y="416" font-size="10.5" font-family="Menlo, monospace" fill="#333">{"talhao_id": "T1", "timestamp": "2026-08-01T06:00:00",</text>
+  <text x="52" y="434" font-size="10.5" font-family="Menlo, monospace" fill="#333"> "umidade_solo_pct": 41.2, "temperatura_c": 21.4,</text>
+  <text x="52" y="452" font-size="10.5" font-family="Menlo, monospace" fill="#333"> "umidade_ar_pct": 58.7, "flag_anomalia": false,</text>
+  <text x="52" y="470" font-size="10.5" font-family="Menlo, monospace" fill="#333"> "motivo_flag": null}</text>
+  <text x="52" y="496" font-size="10" font-family="Menlo, monospace" fill="#999">... 40 leituras/talhão, 4 talhões (T1–T4)</text>
+
+  <text x="550" y="386" font-size="11.5" font-weight="700" fill="#333">metadados_imagens.csv (trecho)</text>
+  <rect x="550" y="396" width="490" height="120" rx="6" fill="#ffffff" stroke="#ddd"/>
+  <text x="562" y="416" font-size="10.5" font-family="Menlo, monospace" fill="#333">imagem_id,classe_original,talhao_id,</text>
+  <text x="562" y="432" font-size="10.5" font-family="Menlo, monospace" fill="#333">data_captura,equipamento</text>
+  <text x="562" y="454" font-size="10.5" font-family="Menlo, monospace" fill="#333">applerot4.JPG,test,T1,</text>
+  <text x="562" y="470" font-size="10.5" font-family="Menlo, monospace" fill="#333">2026-08-02T18:00:00,drone</text>
+  <text x="562" y="496" font-size="10" font-family="Menlo, monospace" fill="#999">... 2286 imagens catalogadas (treino + teste)</text>
+
+  <text x="40" y="535" font-size="11" fill="#777" font-style="italic">Arquivos reais gerados em data/bronze/ — reproduzível rodando "python appleAnalisys.py"</text>
+</svg>

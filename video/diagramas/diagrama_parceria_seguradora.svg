@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1080 480" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1080" height="480" fill="#ffffff"/>
+  <text x="540" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a1a">Monetização de Dados — Parceria com Seguradora Agrícola</text>
+
+  <!-- Produtor -->
+  <rect x="40" y="150" width="230" height="160" rx="14" fill="#eef7ee" stroke="#4a8f4a" stroke-width="2"/>
+  <text x="155" y="180" text-anchor="middle" font-size="15" font-weight="700" fill="#2f6b2f">PRODUTOR</text>
+  <text x="55" y="208" font-size="11.5" fill="#1a1a1a">• Usa o AgroSmart para</text>
+  <text x="55" y="224" font-size="11.5" fill="#1a1a1a">  monitorar o talhão</text>
+  <text x="55" y="248" font-size="11.5" fill="#1a1a1a">• Detecta Podridão Negra</text>
+  <text x="55" y="264" font-size="11.5" fill="#1a1a1a">  cedo, reduz perdas</text>
+  <text x="55" y="288" font-size="11.5" fill="#2f6b2f" font-weight="700">→ paga menos no seguro</text>
+
+  <!-- AgroSmart -->
+  <rect x="420" y="150" width="240" height="160" rx="14" fill="#fff3cd" stroke="#d4a017" stroke-width="2"/>
+  <text x="540" y="180" text-anchor="middle" font-size="15" font-weight="700" fill="#7a5c00">AGROSMART</text>
+  <text x="435" y="208" font-size="11.5" fill="#1a1a1a">• Coleta diagnóstico +</text>
+  <text x="435" y="224" font-size="11.5" fill="#1a1a1a">  dado de sensor por talhão</text>
+  <text x="435" y="248" font-size="11.5" fill="#1a1a1a">• Agrega e anonimiza por</text>
+  <text x="435" y="264" font-size="11.5" fill="#1a1a1a">  região/safra</text>
+  <text x="435" y="288" font-size="11.5" fill="#7a5c00" font-weight="700">→ Índice de Risco Fitossanitário</text>
+
+  <!-- Seguradora -->
+  <rect x="810" y="150" width="230" height="160" rx="14" fill="#e7f1ff" stroke="#4a7fd4" stroke-width="2"/>
+  <text x="925" y="180" text-anchor="middle" font-size="15" font-weight="700" fill="#1f4a8a">SEGURADORA</text>
+  <text x="825" y="208" font-size="11.5" fill="#1a1a1a">• Recebe índice de risco</text>
+  <text x="825" y="224" font-size="11.5" fill="#1a1a1a">  via API (paga por acesso)</text>
+  <text x="825" y="248" font-size="11.5" fill="#1a1a1a">• Precifica apólice com</text>
+  <text x="825" y="264" font-size="11.5" fill="#1a1a1a">  base em dado real de campo</text>
+  <text x="825" y="288" font-size="11.5" fill="#1f4a8a" font-weight="700">→ menos sinistro, mais margem</text>
+
+  <!-- Arrows Produtor <-> AgroSmart -->
+  <path d="M270,200 L418,200" stroke="#555" stroke-width="1.6" fill="none" marker-end="url(#arrow3)"/>
+  <text x="344" y="192" text-anchor="middle" font-size="10" fill="#555">dados de campo</text>
+
+  <path d="M418,260 L270,260" stroke="#555" stroke-width="1.6" fill="none" marker-end="url(#arrow3)"/>
+  <text x="344" y="252" text-anchor="middle" font-size="10" fill="#555">diagnóstico + alerta</text>
+
+  <!-- Arrows AgroSmart <-> Seguradora -->
+  <path d="M660,200 L808,200" stroke="#555" stroke-width="1.6" fill="none" marker-end="url(#arrow3)"/>
+  <text x="734" y="192" text-anchor="middle" font-size="10" fill="#555">índice de risco (API)</text>
+
+  <path d="M808,260 L660,260" stroke="#555" stroke-width="1.6" fill="none" marker-end="url(#arrow3)"/>
+  <text x="734" y="252" text-anchor="middle" font-size="10" fill="#555">taxa de licenciamento</text>
+
+  <!-- Direct Produtor <-> Seguradora (desconto) -->
+  <path d="M155,150 C155,60 925,60 925,148" stroke="#4a7fd4" stroke-width="1.6" fill="none" stroke-dasharray="5,4" marker-end="url(#arrow3)"/>
+  <text x="540" y="72" text-anchor="middle" font-size="12" fill="#1f4a8a" font-weight="700">desconto no prêmio do seguro por adotar monitoramento ativo</text>
+
+  <!-- Bottom: ganha-ganha-ganha -->
+  <rect x="40" y="350" width="1000" height="100" rx="12" fill="#fafafa" stroke="#dddddd" stroke-width="1.5"/>
+  <text x="60" y="378" font-size="13" font-weight="700" fill="#1a1a1a">Ganha-ganha-ganha</text>
+  <text x="60" y="400" font-size="11.5" fill="#333">Produtor: seguro mais barato + menos perda de safra.  •  Seguradora: subscrição mais precisa e menos sinistro pago.</text>
+  <text x="60" y="420" font-size="11.5" fill="#333">AgroSmart: 2ª fonte de receita B2B (taxa de API da seguradora) + canal de distribuição (seguradora recomenda o produto aos seus segurados).</text>
+</svg>

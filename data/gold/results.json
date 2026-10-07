@@ -1,0 +1,642 @@
+[
+    {
+        "image": "applehealthy10.JPG",
+        "predicted_class": "Apple___healthy",
+        "probabilities_ml": {
+            "Apple___healthy": 0.75,
+            "Apple___Black_rot": 0.25
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 0.0,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applehealthy10.JPG",
+            "classe_original": "test",
+            "talhao_id": "T3",
+            "data_captura": "2026-08-01T12:00:00",
+            "equipamento": "drone"
+        },
+        "sensor_context": {
+            "talhao_id": "T3",
+            "timestamp": "2026-08-01T12:00:00",
+            "umidade_solo_pct": 31.3,
+            "temperatura_c": 29.4,
+            "umidade_ar_pct": 43.8,
+            "luminosidade_pct": 98.0,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applerot10.JPG",
+        "predicted_class": "Apple___Black_rot",
+        "probabilities_ml": {
+            "Apple___healthy": 0.055,
+            "Apple___Black_rot": 0.945
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 3.02,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applerot10.JPG",
+            "classe_original": "test",
+            "talhao_id": "T3",
+            "data_captura": "2026-08-01T12:00:00",
+            "equipamento": "drone"
+        },
+        "sensor_context": {
+            "talhao_id": "T3",
+            "timestamp": "2026-08-01T12:00:00",
+            "umidade_solo_pct": 31.3,
+            "temperatura_c": 29.4,
+            "umidade_ar_pct": 43.8,
+            "luminosidade_pct": 98.0,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applehealthy8.JPG",
+        "predicted_class": "Apple___healthy",
+        "probabilities_ml": {
+            "Apple___healthy": 0.545,
+            "Apple___Black_rot": 0.455
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 0.0,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applehealthy8.JPG",
+            "classe_original": "test",
+            "talhao_id": "T3",
+            "data_captura": "2026-08-01T08:00:00",
+            "equipamento": "drone"
+        },
+        "sensor_context": {
+            "talhao_id": "T3",
+            "timestamp": "2026-08-01T08:00:00",
+            "umidade_solo_pct": 19.4,
+            "temperatura_c": 31.8,
+            "umidade_ar_pct": 28.6,
+            "luminosidade_pct": 27.0,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applehealthy9.JPG",
+        "predicted_class": "Apple___healthy",
+        "probabilities_ml": {
+            "Apple___healthy": 0.985,
+            "Apple___Black_rot": 0.015
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 0.0,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applehealthy9.JPG",
+            "classe_original": "test",
+            "talhao_id": "T2",
+            "data_captura": "2026-08-01T19:00:00",
+            "equipamento": "camera_manual"
+        },
+        "sensor_context": {
+            "talhao_id": "T2",
+            "timestamp": "2026-08-01T19:00:00",
+            "umidade_solo_pct": 72.6,
+            "temperatura_c": 26.9,
+            "umidade_ar_pct": 73.6,
+            "luminosidade_pct": 0.0,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applerot8.JPG",
+        "predicted_class": "Apple___Black_rot",
+        "probabilities_ml": {
+            "Apple___healthy": 0.025,
+            "Apple___Black_rot": 0.975
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 1.8,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applerot8.JPG",
+            "classe_original": "test",
+            "talhao_id": "T4",
+            "data_captura": "2026-08-02T13:00:00",
+            "equipamento": "camera_manual"
+        },
+        "sensor_context": {
+            "talhao_id": "T4",
+            "timestamp": "2026-08-02T13:00:00",
+            "umidade_solo_pct": 61.5,
+            "temperatura_c": 22.3,
+            "umidade_ar_pct": 64.3,
+            "luminosidade_pct": 80.3,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applerot9.JPG",
+        "predicted_class": "Apple___Black_rot",
+        "probabilities_ml": {
+            "Apple___healthy": 0.03,
+            "Apple___Black_rot": 0.97
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 0.87,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applerot9.JPG",
+            "classe_original": "test",
+            "talhao_id": "T4",
+            "data_captura": "2026-08-02T13:00:00",
+            "equipamento": "camera_manual"
+        },
+        "sensor_context": {
+            "talhao_id": "T4",
+            "timestamp": "2026-08-02T13:00:00",
+            "umidade_solo_pct": 61.5,
+            "temperatura_c": 22.3,
+            "umidade_ar_pct": 64.3,
+            "luminosidade_pct": 80.3,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applerot7.JPG",
+        "predicted_class": "Apple___Black_rot",
+        "probabilities_ml": {
+            "Apple___healthy": 0.03,
+            "Apple___Black_rot": 0.97
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 9.09,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applerot7.JPG",
+            "classe_original": "test",
+            "talhao_id": "T2",
+            "data_captura": "2026-08-01T11:00:00",
+            "equipamento": "camera_manual"
+        },
+        "sensor_context": {
+            "talhao_id": "T2",
+            "timestamp": "2026-08-01T11:00:00",
+            "umidade_solo_pct": 77.7,
+            "temperatura_c": 26.4,
+            "umidade_ar_pct": 77.8,
+            "luminosidade_pct": 80.7,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applehealthy2.JPG",
+        "predicted_class": "Apple___healthy",
+        "probabilities_ml": {
+            "Apple___healthy": 0.805,
+            "Apple___Black_rot": 0.195
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 0.0,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applehealthy2.JPG",
+            "classe_original": "test",
+            "talhao_id": "T2",
+            "data_captura": "2026-08-02T03:00:00",
+            "equipamento": "camera_manual"
+        },
+        "sensor_context": {
+            "talhao_id": "T2",
+            "timestamp": "2026-08-02T03:00:00",
+            "umidade_solo_pct": 69.1,
+            "temperatura_c": 31.0,
+            "umidade_ar_pct": 81.3,
+            "luminosidade_pct": 0.0,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applehealthy3.JPG",
+        "predicted_class": "Apple___healthy",
+        "probabilities_ml": {
+            "Apple___healthy": 0.595,
+            "Apple___Black_rot": 0.405
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 0.0,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applehealthy3.JPG",
+            "classe_original": "test",
+            "talhao_id": "T1",
+            "data_captura": "2026-08-02T14:00:00",
+            "equipamento": "drone"
+        },
+        "sensor_context": {
+            "talhao_id": "T1",
+            "timestamp": "2026-08-02T14:00:00",
+            "umidade_solo_pct": 51.3,
+            "temperatura_c": 25.6,
+            "umidade_ar_pct": 57.6,
+            "luminosidade_pct": 59.1,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applerot6.JPG",
+        "predicted_class": "Apple___Black_rot",
+        "probabilities_ml": {
+            "Apple___healthy": 0.08,
+            "Apple___Black_rot": 0.92
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 3.21,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applerot6.JPG",
+            "classe_original": "test",
+            "talhao_id": "T1",
+            "data_captura": "2026-08-02T14:00:00",
+            "equipamento": "drone"
+        },
+        "sensor_context": {
+            "talhao_id": "T1",
+            "timestamp": "2026-08-02T14:00:00",
+            "umidade_solo_pct": 51.3,
+            "temperatura_c": 25.6,
+            "umidade_ar_pct": 57.6,
+            "luminosidade_pct": 59.1,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applerot4.JPG",
+        "predicted_class": "Apple___Black_rot",
+        "probabilities_ml": {
+            "Apple___healthy": 0.135,
+            "Apple___Black_rot": 0.865
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 22.95,
+            "diagnosis_case": {
+                "range": "21% - 40%",
+                "message": "Infecção moderada. As lesões fúngicas estão se expandindo pela área foliar.",
+                "recommendation": "Realize poda sanitária removendo folhas e galhos infectados. Considere a aplicação de um fungicida preventivo à base de cobre, seguindo orientação agronômica."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applerot4.JPG",
+            "classe_original": "test",
+            "talhao_id": "T1",
+            "data_captura": "2026-08-02T18:00:00",
+            "equipamento": "drone"
+        },
+        "sensor_context": {
+            "talhao_id": "T1",
+            "timestamp": "2026-08-02T18:00:00",
+            "umidade_solo_pct": 60.1,
+            "temperatura_c": 23.9,
+            "umidade_ar_pct": 52.9,
+            "luminosidade_pct": 0.0,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applehealthy1.JPG",
+        "predicted_class": "Apple___healthy",
+        "probabilities_ml": {
+            "Apple___healthy": 1.0,
+            "Apple___Black_rot": 0.0
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 0.0,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applehealthy1.JPG",
+            "classe_original": "test",
+            "talhao_id": "T3",
+            "data_captura": "2026-08-02T04:00:00",
+            "equipamento": "drone"
+        },
+        "sensor_context": {
+            "talhao_id": "T3",
+            "timestamp": "2026-08-02T04:00:00",
+            "umidade_solo_pct": 27.2,
+            "temperatura_c": 32.1,
+            "umidade_ar_pct": 33.1,
+            "luminosidade_pct": 0.0,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applerot5.JPG",
+        "predicted_class": "Apple___Black_rot",
+        "probabilities_ml": {
+            "Apple___healthy": 0.07,
+            "Apple___Black_rot": 0.93
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 5.31,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applerot5.JPG",
+            "classe_original": "test",
+            "talhao_id": "T1",
+            "data_captura": "2026-08-02T02:00:00",
+            "equipamento": "drone"
+        },
+        "sensor_context": {
+            "talhao_id": "T1",
+            "timestamp": "2026-08-02T02:00:00",
+            "umidade_solo_pct": 60.6,
+            "temperatura_c": 25.8,
+            "umidade_ar_pct": 52.8,
+            "luminosidade_pct": 2.9,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applerot1.JPG",
+        "predicted_class": "Apple___healthy",
+        "probabilities_ml": {
+            "Apple___healthy": 1.0,
+            "Apple___Black_rot": 0.0
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 0.0,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applerot1.JPG",
+            "classe_original": "test",
+            "talhao_id": "T4",
+            "data_captura": "2026-08-02T17:00:00",
+            "equipamento": "camera_manual"
+        },
+        "sensor_context": {
+            "talhao_id": "T4",
+            "timestamp": "2026-08-02T17:00:00",
+            "umidade_solo_pct": 59.4,
+            "temperatura_c": 22.4,
+            "umidade_ar_pct": 59.2,
+            "luminosidade_pct": 12.0,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applehealthy4.JPG",
+        "predicted_class": "Apple___healthy",
+        "probabilities_ml": {
+            "Apple___healthy": 1.0,
+            "Apple___Black_rot": 0.0
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 0.0,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applehealthy4.JPG",
+            "classe_original": "test",
+            "talhao_id": "T1",
+            "data_captura": "2026-08-01T14:00:00",
+            "equipamento": "drone"
+        },
+        "sensor_context": {
+            "talhao_id": "T1",
+            "timestamp": "2026-08-01T14:00:00",
+            "umidade_solo_pct": 52.8,
+            "temperatura_c": 24.1,
+            "umidade_ar_pct": 65.8,
+            "luminosidade_pct": 60.2,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applehealthy5.JPG",
+        "predicted_class": "Apple___healthy",
+        "probabilities_ml": {
+            "Apple___healthy": 1.0,
+            "Apple___Black_rot": 0.0
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 0.0,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applehealthy5.JPG",
+            "classe_original": "test",
+            "talhao_id": "T3",
+            "data_captura": "2026-08-01T08:00:00",
+            "equipamento": "drone"
+        },
+        "sensor_context": {
+            "talhao_id": "T3",
+            "timestamp": "2026-08-01T08:00:00",
+            "umidade_solo_pct": 19.4,
+            "temperatura_c": 31.8,
+            "umidade_ar_pct": 28.6,
+            "luminosidade_pct": 27.0,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applerot2.JPG",
+        "predicted_class": "Apple___Black_rot",
+        "probabilities_ml": {
+            "Apple___healthy": 0.08,
+            "Apple___Black_rot": 0.92
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 2.51,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applerot2.JPG",
+            "classe_original": "test",
+            "talhao_id": "T4",
+            "data_captura": "2026-08-01T13:00:00",
+            "equipamento": "camera_manual"
+        },
+        "sensor_context": {
+            "talhao_id": "T4",
+            "timestamp": "2026-08-01T13:00:00",
+            "umidade_solo_pct": 46.9,
+            "temperatura_c": 25.7,
+            "umidade_ar_pct": 64.8,
+            "luminosidade_pct": 78.1,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applehealthy7.JPG",
+        "predicted_class": "Apple___healthy",
+        "probabilities_ml": {
+            "Apple___healthy": 0.97,
+            "Apple___Black_rot": 0.03
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 0.0,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applehealthy7.JPG",
+            "classe_original": "test",
+            "talhao_id": "T4",
+            "data_captura": "2026-08-01T17:00:00",
+            "equipamento": "camera_manual"
+        },
+        "sensor_context": {
+            "talhao_id": "T4",
+            "timestamp": "2026-08-01T17:00:00",
+            "umidade_solo_pct": 48.0,
+            "temperatura_c": 25.6,
+            "umidade_ar_pct": 49.3,
+            "luminosidade_pct": 14.0,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applehealthy6.JPG",
+        "predicted_class": "Apple___healthy",
+        "probabilities_ml": {
+            "Apple___healthy": 1.0,
+            "Apple___Black_rot": 0.0
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 0.0,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applehealthy6.JPG",
+            "classe_original": "test",
+            "talhao_id": "T3",
+            "data_captura": "2026-08-01T08:00:00",
+            "equipamento": "drone"
+        },
+        "sensor_context": {
+            "talhao_id": "T3",
+            "timestamp": "2026-08-01T08:00:00",
+            "umidade_solo_pct": 19.4,
+            "temperatura_c": 31.8,
+            "umidade_ar_pct": 28.6,
+            "luminosidade_pct": 27.0,
+            "flag_anomalia": false
+        }
+    },
+    {
+        "image": "applerot3.JPG",
+        "predicted_class": "Apple___Black_rot",
+        "probabilities_ml": {
+            "Apple___healthy": 0.465,
+            "Apple___Black_rot": 0.535
+        },
+        "analysis_infected_area": {
+            "real_infected_area_percentage": 17.77,
+            "diagnosis_case": {
+                "range": "0% - 20%",
+                "message": "Infecção inicial ou leve. A folha apresenta os primeiros sinais de manchas de Podridão Negra.",
+                "recommendation": "Monitore a planta. Remova e descarte as folhas afetadas. Garanta boa circulação de ar ao redor da planta e evite molhar as folhas durante a rega."
+            }
+        },
+        "metadata": {
+            "imagem_id": "applerot3.JPG",
+            "classe_original": "test",
+            "talhao_id": "T1",
+            "data_captura": "2026-08-01T10:00:00",
+            "equipamento": "drone"
+        },
+        "sensor_context": {
+            "talhao_id": "T1",
+            "timestamp": "2026-08-01T10:00:00",
+            "umidade_solo_pct": 59.8,
+            "temperatura_c": 25.7,
+            "umidade_ar_pct": 50.4,
+            "luminosidade_pct": 62.7,
+            "flag_anomalia": false
+        }
+    }
+]

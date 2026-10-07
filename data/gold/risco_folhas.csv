@@ -1,0 +1,21 @@
+imagem,talhao_id,classe_prevista,area_infectada_pct,indice_risco,nivel_risco,fatores_ambientais,acao_recomendada
+applehealthy10.JPG,T3,Apple___healthy,0.0,0.1,baixo,temperatura na faixa favorável à proliferação fúngica (29.4°C),Manter inspeção periódica.
+applerot10.JPG,T3,Apple___Black_rot,3.02,0.13,baixo,temperatura na faixa favorável à proliferação fúngica (29.4°C),Recomenda-se remover as folhas afetadas e monitorar a evolução nos próximos dias.
+applehealthy8.JPG,T3,Apple___healthy,0.0,0.1,baixo,ar seco (29% de umidade); temperatura na faixa favorável à proliferação fúngica (31.8°C),Manter inspeção periódica.
+applehealthy9.JPG,T2,Apple___healthy,0.0,0.18,baixo,temperatura na faixa favorável à proliferação fúngica (26.9°C); solo com alta retenção de umidade (73%),Monitoramento preventivo: ambiente favorável ao fungo.
+applerot8.JPG,T4,Apple___Black_rot,1.8,0.01,baixo,,Recomenda-se remover as folhas afetadas e monitorar a evolução nos próximos dias.
+applerot9.JPG,T4,Apple___Black_rot,0.87,0.01,baixo,,Recomenda-se remover as folhas afetadas e monitorar a evolução nos próximos dias.
+applerot7.JPG,T2,Apple___Black_rot,9.09,0.36,medio,umidade do ar elevada (78%); temperatura na faixa favorável à proliferação fúngica (26.4°C); solo com alta retenção de umidade (78%),Recomenda-se remover as folhas afetadas e monitorar a evolução nos próximos dias.
+applehealthy2.JPG,T2,Apple___healthy,0.0,0.22,baixo,umidade do ar elevada (81%); temperatura na faixa favorável à proliferação fúngica (31.0°C),Monitoramento preventivo: ambiente favorável ao fungo.
+applehealthy3.JPG,T1,Apple___healthy,0.0,0.1,baixo,temperatura na faixa favorável à proliferação fúngica (25.6°C),Manter inspeção periódica.
+applerot6.JPG,T1,Apple___Black_rot,3.21,0.13,baixo,temperatura na faixa favorável à proliferação fúngica (25.6°C),Recomenda-se remover as folhas afetadas e monitorar a evolução nos próximos dias.
+applerot4.JPG,T1,Apple___Black_rot,22.95,0.16,baixo,,Recomenda-se poda sanitária das partes afetadas e avaliação de fungicida preventivo à base de cobre.
+applehealthy1.JPG,T3,Apple___healthy,0.0,0.03,baixo,ar seco (33% de umidade); temperatura elevada (32.1°C),Manter inspeção periódica.
+applerot5.JPG,T1,Apple___Black_rot,5.31,0.14,baixo,temperatura na faixa favorável à proliferação fúngica (25.8°C),Recomenda-se remover as folhas afetadas e monitorar a evolução nos próximos dias.
+applerot1.JPG,T4,Apple___healthy,0.0,0.0,baixo,,Manter inspeção periódica.
+applehealthy4.JPG,T1,Apple___healthy,0.0,0.1,baixo,temperatura na faixa favorável à proliferação fúngica (24.1°C),Manter inspeção periódica.
+applehealthy5.JPG,T3,Apple___healthy,0.0,0.1,baixo,ar seco (29% de umidade); temperatura na faixa favorável à proliferação fúngica (31.8°C),Manter inspeção periódica.
+applerot2.JPG,T4,Apple___Black_rot,2.51,0.12,baixo,temperatura na faixa favorável à proliferação fúngica (25.7°C),Recomenda-se remover as folhas afetadas e monitorar a evolução nos próximos dias.
+applehealthy7.JPG,T4,Apple___healthy,0.0,0.1,baixo,temperatura na faixa favorável à proliferação fúngica (25.6°C),Manter inspeção periódica.
+applehealthy6.JPG,T3,Apple___healthy,0.0,0.1,baixo,ar seco (29% de umidade); temperatura na faixa favorável à proliferação fúngica (31.8°C),Manter inspeção periódica.
+applerot3.JPG,T1,Apple___Black_rot,17.77,0.23,baixo,temperatura na faixa favorável à proliferação fúngica (25.7°C),Recomenda-se remover as folhas afetadas e monitorar a evolução nos próximos dias.

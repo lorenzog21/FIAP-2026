@@ -1,0 +1,5 @@
+talhao_id,leituras,leituras_corrigidas,temperatura_media,umidade_ar_media,umidade_solo_media,luminosidade_media,risco_ambiental_medio,risco_ambiental_max
+T1,40,3,26.14,57.09,58.18,29.32,0.33,0.35
+T2,40,4,28.13,83.04,73.06,28.77,0.9,1.0
+T3,40,2,31.36,35.09,26.01,29.28,0.26,0.35
+T4,40,1,23.38,64.32,62.14,28.94,0.3,0.65
