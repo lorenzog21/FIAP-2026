@@ -1,0 +1,30 @@
+<svg viewBox="0 0 1000 560" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="1000" height="560" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="#1a1a1a">Fontes de Receita -- AgroSmart</text>
+  <text x="40" y="70" font-size="13" fill="#777">4 linhas de receita, da assinatura recorrente ao marketplace de insumos</text>
+  
+      <circle cx="56" cy="148" r="14" fill="#fff3cd" stroke="#d4a017" stroke-width="1.5"/>
+      <text x="56" y="153" text-anchor="middle" font-size="14" font-weight="700" fill="#7a5c00">1</text>
+      <text x="86" y="144" font-size="16.5" font-weight="700" fill="#1a1a1a">SaaS por assinatura</text>
+      <text x="86" y="168" font-size="13" fill="#444">Plano mensal por hectare/talhão monitorado -- básico (imagem) ou pro (+ sensores + alertas em tempo real).</text>
+      <line x1="40" y1="212" x2="960" y2="212" stroke="#eee" stroke-width="1.5"/>
+    
+      <circle cx="56" cy="248" r="14" fill="#fff3cd" stroke="#d4a017" stroke-width="1.5"/>
+      <text x="56" y="253" text-anchor="middle" font-size="14" font-weight="700" fill="#7a5c00">2</text>
+      <text x="86" y="244" font-size="16.5" font-weight="700" fill="#1a1a1a">Kit de hardware IoT</text>
+      <text x="86" y="268" font-size="13" fill="#444">Venda ou locação de sensores de solo/clima e câmeras/drone, com margem sobre equipamento + manutenção anual.</text>
+      <line x1="40" y1="312" x2="960" y2="312" stroke="#eee" stroke-width="1.5"/>
+    
+      <circle cx="56" cy="348" r="14" fill="#fff3cd" stroke="#d4a017" stroke-width="1.5"/>
+      <text x="56" y="353" text-anchor="middle" font-size="14" font-weight="700" fill="#7a5c00">3</text>
+      <text x="86" y="344" font-size="16.5" font-weight="700" fill="#1a1a1a">Consultoria agronômica premium</text>
+      <text x="86" y="368" font-size="13" fill="#444">Relatórios avançados, comparativo entre safras, recomendação de manejo gerada pela IA.</text>
+      <line x1="40" y1="412" x2="960" y2="412" stroke="#eee" stroke-width="1.5"/>
+    
+      <circle cx="56" cy="448" r="14" fill="#fff3cd" stroke="#d4a017" stroke-width="1.5"/>
+      <text x="56" y="453" text-anchor="middle" font-size="14" font-weight="700" fill="#7a5c00">4</text>
+      <text x="86" y="444" font-size="16.5" font-weight="700" fill="#1a1a1a">Marketplace de insumos</text>
+      <text x="86" y="468" font-size="13" fill="#444">Comissão por indicação de fungicida/insumo direto na recomendação gerada, via parceria com fornecedores.</text>
+      <line x1="40" y1="512" x2="960" y2="512" stroke="#eee" stroke-width="1.5"/>
+    
+</svg>

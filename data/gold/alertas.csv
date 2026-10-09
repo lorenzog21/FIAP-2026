@@ -1,0 +1,18 @@
+talhao_id,tipo,origem,inicio,fim,severidade,leituras,descricao,recomendacao
+T2,RISCO_FUNGICO,sensor,2026-08-01T06:00:00,2026-08-01T18:00:00,alta,13,Condição favorável ao fungo (ar úmido + temperatura 24-32 °C),Intensificar monitoramento foliar e evitar irrigação por aspersão.
+T2,SOLO_ENCHARCADO,sensor,2026-08-01T18:00:00,2026-08-01T18:00:00,media,1,Umidade do solo acima de 80%,Suspender irrigação e verificar drenagem.
+T2,RISCO_FUNGICO,sensor,2026-08-01T20:00:00,2026-08-01T23:00:00,alta,4,Condição favorável ao fungo (ar úmido + temperatura 24-32 °C),Intensificar monitoramento foliar e evitar irrigação por aspersão.
+T2,RISCO_FUNGICO,sensor,2026-08-02T01:00:00,2026-08-02T21:00:00,alta,21,Condição favorável ao fungo (ar úmido + temperatura 24-32 °C),Intensificar monitoramento foliar e evitar irrigação por aspersão.
+T3,SOLO_SECO,sensor,2026-08-01T06:00:00,2026-08-01T09:00:00,alta,4,Umidade do solo abaixo de 30%,Acionar irrigação no talhão.
+T3,SOLO_SECO,sensor,2026-08-01T11:00:00,2026-08-01T11:00:00,media,1,Umidade do solo abaixo de 30%,Acionar irrigação no talhão.
+T3,SOLO_SECO,sensor,2026-08-01T14:00:00,2026-08-01T14:00:00,media,1,Umidade do solo abaixo de 30%,Acionar irrigação no talhão.
+T3,SOLO_SECO,sensor,2026-08-01T17:00:00,2026-08-01T18:00:00,media,2,Umidade do solo abaixo de 30%,Acionar irrigação no talhão.
+T3,SOLO_SECO,sensor,2026-08-01T20:00:00,2026-08-01T23:00:00,media,4,Umidade do solo abaixo de 30%,Acionar irrigação no talhão.
+T3,SOLO_SECO,sensor,2026-08-02T01:00:00,2026-08-02T02:00:00,alta,2,Umidade do solo abaixo de 30%,Acionar irrigação no talhão.
+T3,SOLO_SECO,sensor,2026-08-02T04:00:00,2026-08-02T11:00:00,media,8,Umidade do solo abaixo de 30%,Acionar irrigação no talhão.
+T3,SOLO_SECO,sensor,2026-08-02T13:00:00,2026-08-02T13:00:00,media,1,Umidade do solo abaixo de 30%,Acionar irrigação no talhão.
+T3,SOLO_SECO,sensor,2026-08-02T15:00:00,2026-08-02T21:00:00,media,7,Umidade do solo abaixo de 30%,Acionar irrigação no talhão.
+T4,SOLO_ENCHARCADO,sensor,2026-08-01T20:00:00,2026-08-01T22:00:00,media,3,Umidade do solo acima de 80%,Suspender irrigação e verificar drenagem.
+T4,SOLO_ENCHARCADO,sensor,2026-08-02T00:00:00,2026-08-02T00:00:00,media,1,Umidade do solo acima de 80%,Suspender irrigação e verificar drenagem.
+T4,SOLO_ENCHARCADO,sensor,2026-08-02T03:00:00,2026-08-02T03:00:00,media,1,Umidade do solo acima de 80%,Suspender irrigação e verificar drenagem.
+T4,SOLO_ENCHARCADO,sensor,2026-08-02T05:00:00,2026-08-02T06:00:00,media,2,Umidade do solo acima de 80%,Suspender irrigação e verificar drenagem.

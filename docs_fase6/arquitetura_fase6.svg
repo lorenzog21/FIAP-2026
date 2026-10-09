@@ -1,0 +1,108 @@
+<svg viewBox="0 0 1100 560" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#475569"/></marker>
+    <style>
+      .box{fill:#fff;stroke:#475569;stroke-width:1.5;rx:10}
+      .t{font-size:15px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#475569}
+      .h{font-size:13px;font-weight:700;fill:#fff}
+      .ln{stroke:#475569;stroke-width:1.8;fill:none;marker-end:url(#a)}
+    </style>
+  </defs>
+  <rect width="1100" height="560" fill="#f8fafc"/>
+  <text x="550" y="34" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#0f172a">AgroSmart — Arquitetura da plataforma (Fase 6)</text>
+
+  <!-- column headers -->
+  <rect x="20" y="60" width="190" height="26" rx="6" fill="#2f7dc1"/><text x="115" y="78" text-anchor="middle" class="h">1. FONTES DE DADOS</text>
+  <rect x="250" y="60" width="190" height="26" rx="6" fill="#7a5a3a"/><text x="345" y="78" text-anchor="middle" class="h">2. INGESTÃO (BRONZE)</text>
+  <rect x="480" y="60" width="190" height="26" rx="6" fill="#8a8f98"/><text x="575" y="78" text-anchor="middle" class="h">3. PROCESSAMENTO (SILVER)</text>
+  <rect x="710" y="60" width="170" height="26" rx="6" fill="#c9a400"/><text x="795" y="78" text-anchor="middle" class="h">4. DECISÃO (GOLD)</text>
+  <rect x="920" y="60" width="160" height="26" rx="6" fill="#2e9e5b"/><text x="1000" y="78" text-anchor="middle" class="h">5. VISUALIZAÇÃO</text>
+
+  <!-- sources -->
+  <rect class="box" x="20" y="105" width="190" height="105"/>
+  <text x="115" y="130" text-anchor="middle" class="t">Sensores IoT</text>
+  <text x="115" y="150" text-anchor="middle" class="s">Arduino Uno (TinkerCad)</text>
+  <text x="115" y="166" text-anchor="middle" class="s">temp · solo · ar · luz</text>
+  <text x="115" y="190" text-anchor="middle" class="s">CSV via Serial</text>
+
+  <rect class="box" x="20" y="235" width="190" height="95"/>
+  <text x="115" y="260" text-anchor="middle" class="t">Imagens de folhas</text>
+  <text x="115" y="280" text-anchor="middle" class="s">drone / câmera manual</text>
+  <text x="115" y="296" text-anchor="middle" class="s">dataset PlantVillage (maçã)</text>
+
+  <rect class="box" x="20" y="355" width="190" height="80"/>
+  <text x="115" y="380" text-anchor="middle" class="t">Simulador Python</text>
+  <text x="115" y="400" text-anchor="middle" class="s">ingest.py — mesmo schema</text>
+  <text x="115" y="416" text-anchor="middle" class="s">do circuito, com falhas</text>
+
+  <!-- bronze -->
+  <rect class="box" x="250" y="105" width="190" height="330"/>
+  <text x="345" y="132" text-anchor="middle" class="t">Data Lake · Bronze</text>
+  <text x="345" y="158" text-anchor="middle" class="s">sensores/batch_&lt;ts&gt;/*.json</text>
+  <text x="345" y="178" text-anchor="middle" class="s">metadados_imagens_&lt;ts&gt;.csv</text>
+  <text x="345" y="198" text-anchor="middle" class="s">imagens .JPG brutas</text>
+  <text x="345" y="228" text-anchor="middle" class="s">ingestion_log.jsonl</text>
+  <text x="345" y="260" text-anchor="middle" class="s">Append-only · versionado</text>
+  <text x="345" y="278" text-anchor="middle" class="s">leitura fora de faixa →</text>
+  <text x="345" y="294" text-anchor="middle" class="s">flag_anomalia (não descarta)</text>
+
+  <!-- silver -->
+  <rect class="box" x="480" y="105" width="190" height="150"/>
+  <text x="575" y="132" text-anchor="middle" class="t">Visão computacional</text>
+  <text x="575" y="152" text-anchor="middle" class="s">OpenCV (HSV): % área doente</text>
+  <text x="575" y="168" text-anchor="middle" class="s">+ circularidade</text>
+  <text x="575" y="192" text-anchor="middle" class="s">Random Forest (scikit-learn)</text>
+  <text x="575" y="208" text-anchor="middle" class="s">saudável × Black Rot</text>
+  <text x="575" y="234" text-anchor="middle" class="s">appleAnalisys.py</text>
+
+  <rect class="box" x="480" y="280" width="190" height="155"/>
+  <text x="575" y="307" text-anchor="middle" class="t">Preparação (pandas)</text>
+  <text x="575" y="327" text-anchor="middle" class="s">limpeza + interpolação</text>
+  <text x="575" y="343" text-anchor="middle" class="s">de leituras anômalas</text>
+  <text x="575" y="367" text-anchor="middle" class="s">risco_ambiental (0–1)</text>
+  <text x="575" y="383" text-anchor="middle" class="s">resumo por talhão</text>
+  <text x="575" y="409" text-anchor="middle" class="s">processar_dados.py</text>
+
+  <!-- gold -->
+  <rect class="box" x="710" y="105" width="170" height="175"/>
+  <text x="795" y="132" text-anchor="middle" class="t">Motor de regras</text>
+  <text x="795" y="152" text-anchor="middle" class="s">alertas de sensor</text>
+  <text x="795" y="168" text-anchor="middle" class="s">(episódios consolidados)</text>
+  <text x="795" y="192" text-anchor="middle" class="s">risco da folha:</text>
+  <text x="795" y="208" text-anchor="middle" class="s">70% lesão + 30% ambiente</text>
+  <text x="795" y="232" text-anchor="middle" class="s">decisão por talhão</text>
+  <text x="795" y="258" text-anchor="middle" class="s">automacao.py</text>
+
+  <rect class="box" x="710" y="305" width="170" height="130"/>
+  <text x="795" y="332" text-anchor="middle" class="t">IA generativa simulada</text>
+  <text x="795" y="352" text-anchor="middle" class="s">diagnóstico em linguagem</text>
+  <text x="795" y="368" text-anchor="middle" class="s">natural (templates)</text>
+  <text x="795" y="394" text-anchor="middle" class="s">generate_insights.py</text>
+
+  <!-- viz -->
+  <rect class="box" x="920" y="105" width="160" height="330"/>
+  <text x="1000" y="132" text-anchor="middle" class="t">Dashboard</text>
+  <text x="1000" y="152" text-anchor="middle" class="s">Streamlit + Plotly</text>
+  <text x="1000" y="182" text-anchor="middle" class="s">KPIs · séries temporais</text>
+  <text x="1000" y="200" text-anchor="middle" class="s">mapa de risco por hora</text>
+  <text x="1000" y="218" text-anchor="middle" class="s">folhas de maior risco</text>
+  <text x="1000" y="236" text-anchor="middle" class="s">alertas e recomendações</text>
+  <text x="1000" y="262" text-anchor="middle" class="s">decisão por talhão</text>
+  <text x="1000" y="300" text-anchor="middle" class="s">dashboard.py</text>
+
+  <!-- arrows -->
+  <path class="ln" d="M210 157 H250"/>
+  <path class="ln" d="M210 282 H250"/>
+  <path class="ln" d="M210 395 H250"/>
+  <path class="ln" d="M440 180 H480"/>
+  <path class="ln" d="M440 357 H480"/>
+  <path class="ln" d="M670 180 H710"/>
+  <path class="ln" d="M670 357 H710"/>
+  <path class="ln" d="M575 255 V280"/>
+  <path class="ln" d="M880 190 H920"/>
+  <path class="ln" d="M880 370 H920"/>
+
+  <text x="550" y="490" text-anchor="middle" class="s">Um único comando executa tudo: python appleAnalisys.py  →  streamlit run dashboard.py</text>
+  <text x="550" y="512" text-anchor="middle" class="s">Camadas: Bronze (bruto) → Silver (limpo, com features) → Gold (pronto para consumo: alertas, risco, decisões)</text>
+</svg>

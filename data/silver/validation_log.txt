@@ -1,0 +1,3 @@
+Lote de ingestão: 20261008T002322
+Imagens de treino validas: 2266
+Imagens de treino descartadas (ilegiveis): 0
