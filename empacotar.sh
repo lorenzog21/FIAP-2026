@@ -8,7 +8,7 @@ rm -f "$SAIDA"
 zip -r "$SAIDA" \
   README.md requirements.txt \
   ingest.py appleAnalisys.py generate_insights.py processar_dados.py automacao.py dashboard.py \
-  iot docs_fase6 entrega test \
+  simulacao docs_fase6 entrega test demo_alerta_ao_vivo.py \
   data/bronze data/silver data/gold \
   exemplos_ia_generativa.md diagrama_*.md diagrama_*.svg \
   -x "*.DS_Store" "*/__pycache__/*"

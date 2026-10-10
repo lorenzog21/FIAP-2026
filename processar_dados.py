@@ -36,6 +36,42 @@ def carregar_sensores_bronze(sensor_dir):
     return df.sort_values(["talhao_id", "timestamp"]).reset_index(drop=True)
 
 
+FAIXAS = {"umidade_solo_pct": (0, 100), "temperatura_c": (-10, 50),
+          "umidade_ar_pct": (0, 100), "luminosidade_pct": (0, 100)}
+SERIAL_DIR = os.path.join("data", "bronze", "stream_sensores")
+
+
+def processar_serial():
+    """Le o fluxo de sensores (CSV: talhao_id,t_ms,...,irrigacao), valida e
+    grava data/silver/sensores_stream.csv. Trata: linhas de cabecalho repetidas,
+    texto no lugar de numero (-> ausente), duplicatas de t_ms, fora de faixa e ausentes."""
+    if not os.path.isdir(SERIAL_DIR):
+        return None
+    arquivos = sorted(f for f in os.listdir(SERIAL_DIR) if f.endswith(".csv"))
+    if not arquivos:
+        return None
+    df = pd.concat([pd.read_csv(os.path.join(SERIAL_DIR, f)).assign(arquivo=f) for f in arquivos],
+                   ignore_index=True)
+    for c in ["t_ms", *FAIXAS, "irrigacao"]:
+        df[c] = pd.to_numeric(df[c], errors="coerce")        # "Temp: abc" ou celula vazia -> NaN
+    df = df.dropna(subset=["t_ms"]).drop_duplicates(subset=["arquivo", "t_ms"]).sort_values(["arquivo", "t_ms"])
+    df["valor_imputado"] = False
+    for c, (lo, hi) in FAIXAS.items():
+        invalido = df[c].isna() | (df[c] < lo) | (df[c] > hi)  # ausente ou outlier fisico
+        df.loc[invalido, c] = float("nan")
+        df["valor_imputado"] |= invalido
+        df[c] = df.groupby("arquivo")[c].transform(lambda x: x.interpolate(limit_direction="both"))
+    df["timestamp"] = DATA_BASE_SERIAL + pd.to_timedelta(df["t_ms"], unit="ms")
+    df["irrigacao"] = (df["umidade_solo_pct"] < 30).astype(int)  # recalculada apos a limpeza
+    df["risco_ambiental"] = df.apply(lambda r: _risco_ambiental({c: r[c] for c in FAIXAS})[0], axis=1)
+    saida = df[["talhao_id", "timestamp", "t_ms", *FAIXAS, "irrigacao", "valor_imputado", "risco_ambiental", "arquivo"]]
+    saida.to_csv(os.path.join(SILVER_DIR, "sensores_stream.csv"), index=False)
+    return saida
+
+
+DATA_BASE_SERIAL = pd.Timestamp("2026-08-01 06:00:00")
+
+
 def limpar_sensores(df):
     df = df.copy()
     df["valor_imputado"] = df["flag_anomalia"].astype(bool)
@@ -108,6 +144,11 @@ def processar(sensor_dir, results_path):
     resumo_por_talhao(limpo).to_csv(os.path.join(GOLD_DIR, "resumo_talhoes.csv"), index=False)
     diag = tabela_diagnosticos(results_path)
     diag.to_csv(os.path.join(GOLD_DIR, "diagnosticos.csv"), index=False)
+
+    serial = processar_serial()
+    if serial is not None:
+        print(f"[processamento] fluxo simulado: {len(serial)} leituras, "
+              f"{int(serial['valor_imputado'].sum())} corrigidas -> data/silver/sensores_stream.csv")
 
     print(
         f"[processamento] {len(bruto)} leituras, {int(limpo['valor_imputado'].sum())} corrigidas; "

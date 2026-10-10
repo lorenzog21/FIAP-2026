@@ -1,0 +1,402 @@
+[
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T06:00:00",
+    "umidade_solo_pct": 77.9,
+    "temperatura_c": 30.7,
+    "umidade_ar_pct": 88.9,
+    "luminosidade_pct": 0.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T07:00:00",
+    "umidade_solo_pct": 75.1,
+    "temperatura_c": 27.3,
+    "umidade_ar_pct": 87.2,
+    "luminosidade_pct": 20.7,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T08:00:00",
+    "umidade_solo_pct": -999.0,
+    "temperatura_c": 28.0,
+    "umidade_ar_pct": 76.9,
+    "luminosidade_pct": 33.8,
+    "flag_anomalia": true,
+    "motivo_flag": "umidade_solo_pct=-999.0 fora da faixa plausivel [0, 100]"
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T09:00:00",
+    "umidade_solo_pct": 68.0,
+    "temperatura_c": 28.9,
+    "umidade_ar_pct": 76.6,
+    "luminosidade_pct": 45.5,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T10:00:00",
+    "umidade_solo_pct": 150.0,
+    "temperatura_c": 28.1,
+    "umidade_ar_pct": 91.1,
+    "luminosidade_pct": 64.6,
+    "flag_anomalia": true,
+    "motivo_flag": "umidade_solo_pct=150.0 fora da faixa plausivel [0, 100]"
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T11:00:00",
+    "umidade_solo_pct": 77.7,
+    "temperatura_c": 26.4,
+    "umidade_ar_pct": 77.8,
+    "luminosidade_pct": 80.7,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T12:00:00",
+    "umidade_solo_pct": -999.0,
+    "temperatura_c": 26.1,
+    "umidade_ar_pct": 75.8,
+    "luminosidade_pct": 98.5,
+    "flag_anomalia": true,
+    "motivo_flag": "umidade_solo_pct=-999.0 fora da faixa plausivel [0, 100]"
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T13:00:00",
+    "umidade_solo_pct": 75.8,
+    "temperatura_c": 27.7,
+    "umidade_ar_pct": 91.6,
+    "luminosidade_pct": 83.6,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T14:00:00",
+    "umidade_solo_pct": 65.6,
+    "temperatura_c": 28.2,
+    "umidade_ar_pct": 86.7,
+    "luminosidade_pct": 64.9,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T15:00:00",
+    "umidade_solo_pct": 79.4,
+    "temperatura_c": 27.5,
+    "umidade_ar_pct": 80.1,
+    "luminosidade_pct": 47.9,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T16:00:00",
+    "umidade_solo_pct": 74.3,
+    "temperatura_c": 25.2,
+    "umidade_ar_pct": 75.7,
+    "luminosidade_pct": 30.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T17:00:00",
+    "umidade_solo_pct": 76.4,
+    "temperatura_c": 26.8,
+    "umidade_ar_pct": 85.1,
+    "luminosidade_pct": 11.2,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T18:00:00",
+    "umidade_solo_pct": 80.7,
+    "temperatura_c": 26.8,
+    "umidade_ar_pct": 80.6,
+    "luminosidade_pct": 0.5,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T19:00:00",
+    "umidade_solo_pct": 72.6,
+    "temperatura_c": 26.9,
+    "umidade_ar_pct": 73.6,
+    "luminosidade_pct": 0.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T20:00:00",
+    "umidade_solo_pct": 66.1,
+    "temperatura_c": 27.8,
+    "umidade_ar_pct": 79.2,
+    "luminosidade_pct": 0.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T21:00:00",
+    "umidade_solo_pct": 79.5,
+    "temperatura_c": 28.3,
+    "umidade_ar_pct": 89.5,
+    "luminosidade_pct": 4.8,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T22:00:00",
+    "umidade_solo_pct": 72.6,
+    "temperatura_c": 29.5,
+    "umidade_ar_pct": 81.2,
+    "luminosidade_pct": 0.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-01T23:00:00",
+    "umidade_solo_pct": 79.3,
+    "temperatura_c": 30.6,
+    "umidade_ar_pct": 85.2,
+    "luminosidade_pct": 0.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T00:00:00",
+    "umidade_solo_pct": 75.2,
+    "temperatura_c": 27.4,
+    "umidade_ar_pct": 74.4,
+    "luminosidade_pct": 2.5,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T01:00:00",
+    "umidade_solo_pct": 65.1,
+    "temperatura_c": 29.0,
+    "umidade_ar_pct": 83.0,
+    "luminosidade_pct": 0.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T02:00:00",
+    "umidade_solo_pct": 74.3,
+    "temperatura_c": 30.4,
+    "umidade_ar_pct": 81.1,
+    "luminosidade_pct": 0.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T03:00:00",
+    "umidade_solo_pct": 69.1,
+    "temperatura_c": 31.0,
+    "umidade_ar_pct": 81.3,
+    "luminosidade_pct": 0.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T04:00:00",
+    "umidade_solo_pct": 78.8,
+    "temperatura_c": 30.5,
+    "umidade_ar_pct": 90.7,
+    "luminosidade_pct": 0.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T05:00:00",
+    "umidade_solo_pct": 66.8,
+    "temperatura_c": 29.0,
+    "umidade_ar_pct": 76.8,
+    "luminosidade_pct": 0.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T06:00:00",
+    "umidade_solo_pct": 68.4,
+    "temperatura_c": 27.8,
+    "umidade_ar_pct": 76.6,
+    "luminosidade_pct": 0.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T07:00:00",
+    "umidade_solo_pct": 67.4,
+    "temperatura_c": 30.9,
+    "umidade_ar_pct": 92.3,
+    "luminosidade_pct": 12.3,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T08:00:00",
+    "umidade_solo_pct": 75.8,
+    "temperatura_c": 30.2,
+    "umidade_ar_pct": 82.6,
+    "luminosidade_pct": 35.8,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T09:00:00",
+    "umidade_solo_pct": 72.9,
+    "temperatura_c": 28.4,
+    "umidade_ar_pct": 86.1,
+    "luminosidade_pct": 44.5,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T10:00:00",
+    "umidade_solo_pct": 68.4,
+    "temperatura_c": 27.5,
+    "umidade_ar_pct": 91.9,
+    "luminosidade_pct": 67.3,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T11:00:00",
+    "umidade_solo_pct": 65.5,
+    "temperatura_c": 26.5,
+    "umidade_ar_pct": 77.8,
+    "luminosidade_pct": 82.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T12:00:00",
+    "umidade_solo_pct": 74.3,
+    "temperatura_c": 28.6,
+    "umidade_ar_pct": 88.8,
+    "luminosidade_pct": 90.7,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T13:00:00",
+    "umidade_solo_pct": 150.0,
+    "temperatura_c": 25.6,
+    "umidade_ar_pct": 77.2,
+    "luminosidade_pct": 74.6,
+    "flag_anomalia": true,
+    "motivo_flag": "umidade_solo_pct=150.0 fora da faixa plausivel [0, 100]"
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T14:00:00",
+    "umidade_solo_pct": 70.2,
+    "temperatura_c": 25.8,
+    "umidade_ar_pct": 75.6,
+    "luminosidade_pct": 64.9,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T15:00:00",
+    "umidade_solo_pct": 73.0,
+    "temperatura_c": 28.5,
+    "umidade_ar_pct": 82.7,
+    "luminosidade_pct": 48.2,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T16:00:00",
+    "umidade_solo_pct": 77.8,
+    "temperatura_c": 28.2,
+    "umidade_ar_pct": 92.5,
+    "luminosidade_pct": 34.1,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T17:00:00",
+    "umidade_solo_pct": 68.2,
+    "temperatura_c": 27.6,
+    "umidade_ar_pct": 84.6,
+    "luminosidade_pct": 19.1,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T18:00:00",
+    "umidade_solo_pct": 77.6,
+    "temperatura_c": 27.2,
+    "umidade_ar_pct": 84.4,
+    "luminosidade_pct": 3.5,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T19:00:00",
+    "umidade_solo_pct": 75.5,
+    "temperatura_c": 25.9,
+    "umidade_ar_pct": 76.3,
+    "luminosidade_pct": 0.1,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T20:00:00",
+    "umidade_solo_pct": 66.0,
+    "temperatura_c": 29.6,
+    "umidade_ar_pct": 91.5,
+    "luminosidade_pct": 0.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  },
+  {
+    "talhao_id": "T2",
+    "timestamp": "2026-08-02T21:00:00",
+    "umidade_solo_pct": 77.9,
+    "temperatura_c": 26.7,
+    "umidade_ar_pct": 85.5,
+    "luminosidade_pct": 0.0,
+    "flag_anomalia": false,
+    "motivo_flag": null
+  }
+]

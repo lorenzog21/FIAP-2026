@@ -1,8 +1,10 @@
 # AgroSmart -- Fase 6 (plataforma integrada)
 
+> **AgroSmart — Fase 6** · Turma ESOA4 · Cayo Gonçalves de Morais Malara (RM 551243) · Igor Nunes Teixeira (RM 551099) · Lorenzo Guimarães (RM 99621) · Thiago Bullara Leite (RM 99461)
+
 Documentação da Fase 6 em [`docs_fase6/`](docs_fase6/):
 [arquitetura](docs_fase6/01_arquitetura.md) ·
-[IoT / TinkerCad](docs_fase6/02_iot_tinkercad.md) ·
+[simulação de sensores](docs_fase6/02_simulacao_sensores.md) ·
 [processamento, automação e dashboard](docs_fase6/03_a_05_processamento_automacao_dashboard.md) ·
 [roteiro do vídeo](docs_fase6/06_roteiro_video.md).
 

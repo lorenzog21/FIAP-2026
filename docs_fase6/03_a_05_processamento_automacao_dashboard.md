@@ -1,5 +1,7 @@
 # Entregas 3, 4 e 5 — Processamento, automação e dashboard
 
+> **AgroSmart — Fase 6** · Turma ESOA4 · Cayo Gonçalves de Morais Malara (RM 551243) · Igor Nunes Teixeira (RM 551099) · Lorenzo Guimarães (RM 99621) · Thiago Bullara Leite (RM 99461)
+
 ## 3. Processamento e preparação dos dados
 
 Código: [`processar_dados.py`](../processar_dados.py)
@@ -91,4 +93,4 @@ Código: [`dashboard.py`](../dashboard.py) — `streamlit run dashboard.py`
 
 Filtros na lateral: talhões e severidade dos alertas.
 
-Prints a entregar em `entrega/prints/` (tirar com o dashboard aberto): `dashboard_topo.png` (KPIs + decisões), `dashboard_series.png` (séries + heatmap) e `dashboard_folhas_alertas.png` (folhas + alertas).
+Capturas em `entrega/prints/`: `dashboard_topo.png` (KPIs, valor atual e média, decisão por talhão), `dashboard_series.png` (evolução dos sensores e mapa de risco), `dashboard_folhas.png` (folhas de maior risco), `dashboard_alertas.png` (alertas e recomendações) e `dashboard_alertas_ao_vivo.png` (painel ao vivo após a demo). Clipes em `entrega/videos/`: `dashboard_tour.webm` e `alerta_ao_vivo.webm`.

@@ -138,7 +138,7 @@ def gerar_diagnostico(registro):
             clausula_ambiental += "indicando risco relativamente controlado no curto prazo, mas que exige acompanhamento."
     elif sensor:
         clausula_ambiental = (
-            f" As condicoes registradas no talhão {sensor['talhao_id']} "
+            f" As condições registradas no talhão {sensor['talhao_id']} "
             f"(temperatura {sensor['temperatura_c']:.1f}°C, umidade do ar {sensor['umidade_ar_pct']:.0f}%, "
             f"umidade do solo {sensor['umidade_solo_pct']:.0f}%) não indicam fator ambiental de risco adicional."
         )
