@@ -1,0 +1,2 @@
+{"hora": "00:30:19", "talhao_id": "T1", "tipo": "RISCO_FUNGICO", "severidade": "media", "descricao": "Condição favorável ao fungo (ar úmido + temperatura 24-32 °C)", "recomendacao": "Intensificar monitoramento foliar e evitar irrigação por aspersão.", "t_ms": 70000}
+{"hora": "00:30:21", "talhao_id": "T1", "tipo": "SOLO_SECO", "severidade": "media", "descricao": "Umidade do solo abaixo de 30%", "recomendacao": "Acionar irrigação no talhão.", "t_ms": 88000}

@@ -58,7 +58,7 @@ camada de sintese de linguagem natural (`generate_insights.gerar_diagnostico`).
 
 **Texto gerado:**
 
-> O modelo detectou padrões de coloração compatíveis com Podridão Negra na folha analisada. A lesão está avançando sobre 22.9% da área foliar, em estágio moderado, com confiança do modelo de 86%. As condicoes registradas no talhão T1 (temperatura 23.9°C, umidade do ar 53%, umidade do solo 60%) não indicam fator ambiental de risco adicional. Recomenda-se poda sanitária das partes afetadas e avaliação de fungicida preventivo à base de cobre.
+> O modelo detectou padrões de coloração compatíveis com Podridão Negra na folha analisada. A lesão está avançando sobre 22.9% da área foliar, em estágio moderado, com confiança do modelo de 86%. As condições registradas no talhão T1 (temperatura 23.9°C, umidade do ar 53%, umidade do solo 60%) não indicam fator ambiental de risco adicional. Recomenda-se poda sanitária das partes afetadas e avaliação de fungicida preventivo à base de cobre.
 
 ## Exemplo 3 -- applerot9.JPG
 
@@ -86,4 +86,4 @@ camada de sintese de linguagem natural (`generate_insights.gerar_diagnostico`).
 
 **Texto gerado:**
 
-> O modelo detectou padrões de coloração compatíveis com Podridão Negra na folha analisada. A lesão está comprometendo cerca de 0.9% da área foliar, um estágio inicial, com confiança do modelo de 97%. As condicoes registradas no talhão T4 (temperatura 22.3°C, umidade do ar 64%, umidade do solo 62%) não indicam fator ambiental de risco adicional. Recomenda-se remover as folhas afetadas e monitorar a evolução nos próximos dias.
+> O modelo detectou padrões de coloração compatíveis com Podridão Negra na folha analisada. A lesão está comprometendo cerca de 0.9% da área foliar, um estágio inicial, com confiança do modelo de 97%. As condições registradas no talhão T4 (temperatura 22.3°C, umidade do ar 64%, umidade do solo 62%) não indicam fator ambiental de risco adicional. Recomenda-se remover as folhas afetadas e monitorar a evolução nos próximos dias.

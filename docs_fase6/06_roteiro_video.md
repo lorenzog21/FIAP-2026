@@ -1,29 +1,30 @@
-# Entrega 6 — Roteiro do vídeo de demonstração (3 a 5 min)
+# Entrega 6 — Roteiro do vídeo de demonstração (3 a 5 minutos)
 
-Meta: **4 min 30 s**. Gravação de tela com narração; uma pessoa por bloco se a equipe quiser dividir a fala.
+> **AgroSmart — Fase 6** · Turma ESOA4 · Cayo Gonçalves de Morais Malara (RM 551243) · Igor Nunes Teixeira (RM 551099) · Lorenzo Guimarães (RM 99621) · Thiago Bullara Leite (RM 99461)
+
+Meta: **4 min 15 s** (255 s) + 10 s de abertura/encerramento. Gravação de tela com narração.
 
 ## Preparação (antes de gravar)
 
-1. `python appleAnalisys.py --usar-cache-silver` (ou sem a flag, se as imagens estiverem locais) — gera a camada Gold.
-2. `streamlit run dashboard.py` e deixar aberto no navegador, zoom 90–100%.
-3. Abas prontas: **(a)** `docs_fase6/arquitetura_fase6.svg`, **(b)** circuito do TinkerCad com a simulação parada, **(c)** terminal com o pipeline, **(d)** dashboard.
-4. Fechar notificações; resolução 1080p.
+1. `python appleAnalisys.py` — gera a camada Gold.
+2. `streamlit run dashboard.py` aberto no navegador (zoom 90–100%), rolado até "Alertas ao vivo".
+3. Abas prontas: (a) `docs_fase6/arquitetura_fase6.svg`; (b) terminal na pasta do projeto, pronto para o simulador; (d) dashboard.
+4. Fechar notificações; 1080p; não mostrar caminhos pessoais nem histórico do terminal.
 
-## Cenas
+## Blocos
 
-| # | Tempo | Tela | Fala (sugestão) |
-|---|---|---|---|
-| 1 | 0:00–0:30 | Dashboard (visão geral) | "O AgroSmart monitora macieiras contra a Podridão Negra. Ele junta dois tipos de dado: sensores do ambiente e fotos das folhas, e transforma isso em alertas e decisões por talhão." |
-| 2 | 0:30–1:15 | Diagrama de arquitetura | "Cinco camadas: fontes de dados, ingestão no Data Lake (Bronze), processamento (Silver), motor de decisão (Gold) e dashboard. Cada camada é um script: `ingest.py`, `appleAnalisys.py`, `processar_dados.py`, `automacao.py` e `dashboard.py`." Passar o mouse/apontar cada bloco. |
-| 3 | 1:15–2:00 | TinkerCad: iniciar simulação, abrir Serial Monitor | "Aqui está a coleta: um Arduino com sensor de temperatura, umidade do solo, luminosidade e um potenciômetro que simula a umidade do ar, já que o TinkerCad não tem DHT. Mexo na umidade do solo, e o LED azul de irrigação acende. Giro o potenciômetro, e o LED vermelho de risco fúngico acende. Os dados saem em CSV na Serial." |
-| 4 | 2:00–2:30 | Terminal: rodar o pipeline | "Para volume, o simulador em Python gera leituras no mesmo formato, em quatro talhões com cenários diferentes, com falhas de sensor propositais. Um comando roda tudo: ingestão, visão computacional, modelo, processamento e automação." Mostrar as linhas `[ingest]`, `[processamento]`, `[automacao]`. |
-| 5 | 2:30–3:15 | Mostrar `alertas.json` e `acoes_talhao.json` (ou o trecho no VS Code) | "A automação é um motor de regras. Ele consolida horas seguidas de condição ruim em um único alerta, por exemplo risco fúngico no T2 quando o ar passa de 75% com temperatura entre 24 e 32 graus. Para as folhas, o risco combina 70% da lesão com 30% do ambiente. No fim, cada talhão recebe uma decisão." |
-| 6 | 3:15–4:15 | Dashboard: KPIs, decisão por talhão, séries temporais (trocar de aba), heatmap, folhas de maior risco, tabela de alertas | "No topo, os indicadores e a decisão de cada talhão. Aqui a evolução dos sensores, com os pontos corrigidos marcados com X. O mapa de risco mostra que o T2 fica crítico o dia todo. Aqui as folhas de maior risco com a foto e o diagnóstico em linguagem natural. E aqui os alertas com a recomendação." Usar o filtro de talhão na lateral para mostrar o T3 (solo seco). |
-| 7 | 4:15–4:30 | Dashboard / slide final | "O sistema está integrado de ponta a ponta e serve de base para a entrega final da Fase 7. Obrigado." |
+| Bloco | Tempo | Duração | Tela | Fala (sugestão) |
+|---|---|---|---|---|
+| Abertura | 0:00–0:05 | 5 s | Slide/título | Nome do projeto, **nomes dos integrantes e turma** |
+| 1. Visão geral | 0:05–0:35 | 30 s | Dashboard (topo) | "O AgroSmart monitora macieiras contra a Podridão Negra. Junta sensores do ambiente e fotos de folhas e transforma isso em alertas e decisões por talhão." |
+| 2. Arquitetura | 0:35–1:20 | 45 s | Diagrama | "Fontes de dados, ingestão no Data Lake, processamento, motor de decisão e dashboard. Cada caixa é um script. O fluxo vai dos sensores e das imagens até a decisão por talhão." Apontar cada caixa na ordem. |
+| 3. Coleta na simulação | 1:20–2:20 | 60 s | Terminal e `stream_simulado.csv` | Rodar `python simulacao/simulador_sensores.py --stdout --ritmo 0.5`. "Os sensores são simulados em Python: temperatura, umidade do solo, umidade do ar e luminosidade, uma leitura a cada 2 segundos, no formato CSV de uma Serial. Aqui o solo seca e a umidade do ar sobe. Também simulamos 4 talhões com cenários diferentes: equilibrado, úmido e quente, seco e com chuva, com falhas de sensor propositais." Abrir `stream_simulado.csv` e mostrar `processar_dados.py` limpando o fluxo. |
+| 4. Automação ao vivo | 2:20–3:20 | 60 s | Terminal + dashboard lado a lado | Rodar `python demo_alerta_ao_vivo.py` (ritmo 1 s). "A cada leitura, as regras são testadas. Aqui a umidade do ar subiu e a temperatura entrou na faixa: alerta de risco fúngico com a ação recomendada. Agora o solo caiu abaixo de 30%: alerta de irrigação." Mostrar os alertas aparecendo na seção "Alertas ao vivo" do dashboard. |
+| 5. Dashboard | 3:20–4:20 | 60 s | Dashboard | "Valor atual e média de cada sensor; decisão por talhão; evolução temporal, com X nas leituras corrigidas; mapa de risco por hora; folhas de maior risco com foto e diagnóstico; alertas e recomendações." Usar o filtro de talhão (T3, solo seco). |
+| Encerramento | 4:20–4:25 | 5 s | Dashboard | "Plataforma integrada, base para a Fase 7." |
 
-## Dicas
+## Depois de gravar
 
-- Ensaiar uma vez cronometrando; cortar a cena 4 se passar de 5 min.
-- Não mostrar caminhos pessoais do computador nem o histórico do terminal.
-- Publicar no YouTube como **não listado** ou no Drive com acesso "qualquer pessoa com o link", e testar o link em aba anônima.
-- Nomes e papéis na narração: combinar quem fala em cada cena (sugestão: 1–2 pessoa A, 3 pessoa B, 4–5 pessoa C, 6–7 pessoa D).
+- Conferir a duração (entre 3:00 e 5:00); cortar pausas.
+- Subir no YouTube como **não listado** ou no Drive com acesso "qualquer pessoa com o link"; abrir o link em janela anônima para testar.
+- Colar o link em `entrega/LINK_VIDEO.txt`.
