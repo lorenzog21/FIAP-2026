@@ -1,0 +1,56 @@
+# Build da imagem de runtime  (2026-10-21 20:50:39)
+# comando: docker build -t agrosmart:local .
+
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.54kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 1.8s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 166B done
+#3 DONE 0.0s
+
+#4 [base 1/4] FROM docker.io/library/python:3.12-slim@sha256:cb33f7f771ecec2ef1225cf39b159591a040391bd73e4c01f00fdfc4c47611d2
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 617B done
+#5 DONE 0.0s
+
+#6 [runtime 4/6] COPY --chown=agro:agro pages ./pages
+#6 CACHED
+
+#7 [runtime 1/6] RUN useradd --create-home --uid 1000 agro
+#7 CACHED
+
+#8 [base 4/4] RUN pip install -r requirements.txt
+#8 CACHED
+
+#9 [base 3/4] COPY requirements.txt .
+#9 CACHED
+
+#10 [runtime 3/6] COPY --chown=agro:agro simulacao ./simulacao
+#10 CACHED
+
+#11 [runtime 5/6] COPY --chown=agro:agro scripts/status.py ./scripts/status.py
+#11 CACHED
+
+#12 [base 2/4] WORKDIR /app
+#12 CACHED
+
+#13 [runtime 2/6] COPY --chown=agro:agro *.py ./
+#13 CACHED
+
+#14 [runtime 6/6] RUN mkdir -p data test && chown -R agro:agro /app
+#14 CACHED
+
+#15 exporting to image
+#15 exporting layers done
+#15 writing image sha256:8f351fe83fc0aac9019bfa8f02b70bacf8777934d72024500eaaa221df396585 done
+#15 naming to docker.io/library/agrosmart:local done
+#15 DONE 0.0s
+RESULTADO: OK

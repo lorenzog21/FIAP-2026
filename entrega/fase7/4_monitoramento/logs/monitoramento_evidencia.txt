@@ -1,0 +1,41 @@
+# docker compose ps (2026-10-21 18:46:07 UTC)
+NAME                  STATUS                    PORTS
+agrosmart-dashboard   Up 31 seconds (healthy)   0.0.0.0:8501->8501/tcp, [::]:8501->8501/tcp
+agrosmart-scheduler   Up 31 seconds (healthy)   8501/tcp
+
+# docker compose exec scheduler python scripts/status.py
+AgroSmart · status do pipeline
+  estado                 operacional
+  codigo                 0
+  ultima_execucao        20261021T184602-d5c3
+  status_ultima          sucesso
+  modo                   cache_silver
+  idade_s                4
+  duracao_s              0.718
+  execucoes_registradas  33
+  taxa_sucesso           1.0
+  alertas_sensor         13
+  leituras_anomalas      8
+  leituras_sensor        160
+exit=0
+
+# ultimas 8 linhas de data/logs/app.log
+{"ts": "2026-10-21T18:46:03.414+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.286, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:46:03.416+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:46:03.433+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.017, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:46:03.433+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:46:03.475+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.042, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:46:03.476+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:46:03.502+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.026, "resultado": "ok", "registros": 13}
+{"ts": "2026-10-21T18:46:03.503+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 0.718}
+
+# ultimas 3 execucoes (data/logs/execucoes.jsonl, resumido)
+{'run_id': '20261021T184530-3782', 'inicio': '2026-10-21T18:45:30.656+00:00', 'duracao_s': 4.464, 'status': 'sucesso', 'modo': 'completo', 'versao': '1.1', 'alertas_sensor': 17, 'leituras_anomalas': 10}
+{'run_id': '20261021T184537-f87f', 'inicio': '2026-10-21T18:45:37.376+00:00', 'duracao_s': 3.878, 'status': 'sucesso', 'modo': 'completo', 'versao': '1.1', 'alertas_sensor': 16, 'leituras_anomalas': 3}
+{'run_id': '20261021T184602-d5c3', 'inicio': '2026-10-21T18:46:02.784+00:00', 'duracao_s': 0.718, 'status': 'sucesso', 'modo': 'cache_silver', 'versao': '1.1', 'alertas_sensor': 13, 'leituras_anomalas': 8}
+
+# logs do agendador (docker compose logs scheduler)
+[processamento] 160 leituras, 8 corrigidas; 20 diagnosticos -> data/gold/dataset_dashboard.csv
+Executando automacao inteligente (motor de regras)...
+[automacao] 13 alertas de sensor, 20 folhas classificadas (0 de risco alto), 4 decisoes por talhao.
+execucao 2 concluida; proxima em 20s

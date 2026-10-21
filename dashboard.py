@@ -87,7 +87,7 @@ c5.metric("Alertas de severidade alta", int((a["severidade"] == "Alta").sum()))
 st.subheader("Ambiente: valor atual e média")
 ultimo = s[s["timestamp"] == s["timestamp"].max()]
 cols = st.columns(4)
-for col, (campo, (titulo, _)) in zip(cols, VARIAVEIS.items()):
+for col, (campo, (titulo, _)) in zip(cols, VARIAVEIS.items(), strict=False):
     atual, media = ultimo[campo].mean(), s[campo].mean()
     col.metric(titulo, f"{atual:.1f}", f"{atual - media:+.1f} vs média ({media:.1f})", delta_color="off",
                help=f"Atual = leitura mais recente ({s['timestamp'].max():%d/%m %H:%M}), média entre os talhões "
@@ -100,7 +100,7 @@ st.caption(f"Atual = leitura mais recente ({s['timestamp'].max():%d/%m %H:%M}), 
 st.subheader("Decisão recomendada por talhão")
 cols = st.columns(max(len(ac), 1))
 prioridade_cor = {"Alta": "🔴", "Média": "🟡", "Baixa": "🟢"}
-for col, (_, linha) in zip(cols, ac.iterrows()):
+for col, (_, linha) in zip(cols, ac.iterrows(), strict=False):
     with col:
         with st.container(border=True, height=340):
             st.markdown(f"**Talhão {linha['talhao_id']}** {prioridade_cor[linha['prioridade']]} prioridade {linha['prioridade'].lower()}")
@@ -110,7 +110,7 @@ for col, (_, linha) in zip(cols, ac.iterrows()):
 # ---------- Séries temporais ----------
 st.subheader("Evolução dos sensores")
 tabs = st.tabs([v[0] for v in VARIAVEIS.values()])
-for tab, (campo, (titulo, cor)) in zip(tabs, VARIAVEIS.items()):
+for tab, (campo, (titulo, _cor)) in zip(tabs, VARIAVEIS.items(), strict=False):
     with tab:
         fig = go.Figure()
         for t in sel:

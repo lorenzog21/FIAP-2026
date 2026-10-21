@@ -67,8 +67,8 @@
         "image": "applehealthy8.JPG",
         "predicted_class": "Apple___healthy",
         "probabilities_ml": {
-            "Apple___healthy": 0.545,
-            "Apple___Black_rot": 0.455
+            "Apple___healthy": 0.54,
+            "Apple___Black_rot": 0.46
         },
         "analysis_infected_area": {
             "real_infected_area_percentage": 0.0,
@@ -547,8 +547,8 @@
         "image": "applehealthy7.JPG",
         "predicted_class": "Apple___healthy",
         "probabilities_ml": {
-            "Apple___healthy": 0.97,
-            "Apple___Black_rot": 0.03
+            "Apple___healthy": 0.975,
+            "Apple___Black_rot": 0.025
         },
         "analysis_infected_area": {
             "real_infected_area_percentage": 0.0,

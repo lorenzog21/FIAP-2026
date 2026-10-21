@@ -1,0 +1,65 @@
+# Uso:
+#   docker compose up --build            # pipeline (1x) + dashboard em http://localhost:8501
+#   docker compose --profile continuo up # + agendador que reexecuta o pipeline a cada INTERVALO_SEGUNDOS
+#   docker compose --profile demo run --rm alerta-ao-vivo   # demo de alertas ao vivo
+name: agrosmart
+
+x-agro: &agro
+  build: .
+  image: agrosmart:local
+  volumes:
+    - ./data:/app/data
+    - ./test:/app/test:ro
+
+services:
+  pipeline:
+    <<: *agro
+    container_name: agrosmart-pipeline
+    command: ["python", "appleAnalisys.py"]
+    restart: "no"
+
+  dashboard:
+    <<: *agro
+    container_name: agrosmart-dashboard
+    ports:
+      - "8501:8501"
+    depends_on:
+      pipeline:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  scheduler:
+    <<: *agro
+    container_name: agrosmart-scheduler
+    profiles: ["continuo"]
+    environment:
+      INTERVALO_SEGUNDOS: ${INTERVALO_SEGUNDOS:-300}
+    # alterna execucoes completas e com cache Silver; seed nova a cada rodada (dados diferentes)
+    command:
+      - sh
+      - -c
+      - |
+        i=0
+        while true; do
+          i=$$((i+1))
+          if [ $$((i % 2)) -eq 0 ]; then FLAG="--usar-cache-silver"; else FLAG=""; fi
+          python appleAnalisys.py --seed $$(date +%s) $$FLAG
+          echo "execucao $$i concluida; proxima em $${INTERVALO_SEGUNDOS}s"
+          sleep $${INTERVALO_SEGUNDOS}
+        done
+    healthcheck:
+      test: ["CMD-SHELL", "python scripts/status.py --max-idade $$((INTERVALO_SEGUNDOS * 3 + 60))"]
+      interval: 30s
+      timeout: 10s
+      start_period: 60s
+      retries: 2
+    depends_on:
+      pipeline:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  alerta-ao-vivo:
+    <<: *agro
+    container_name: agrosmart-alerta-ao-vivo
+    profiles: ["demo"]
+    command: ["python", "demo_alerta_ao_vivo.py", "data/bronze/stream_sensores/stream_simulado.csv", "0.5"]

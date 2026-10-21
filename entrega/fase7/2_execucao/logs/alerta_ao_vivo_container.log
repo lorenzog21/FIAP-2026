@@ -1,0 +1,68 @@
+[ao vivo] lendo data/bronze/stream_sensores/stream_simulado.csv (0.5s por leitura). Ctrl+C para parar.
+
+T1 t=    2s  solo= 61.5%  temp=22.1C  ar= 48.6%  luz= 25.3%
+T1 t=    4s  solo= 60.9%  temp=22.2C  ar= 48.9%  luz= 22.8%
+T1 t=    6s  solo= 59.2%  temp=22.3C  ar= 49.8%  luz= 74.8%
+T1 t=    8s  solo= 58.9%  temp=22.9C  ar= 52.6%  luz= 59.5%
+T1 t=   10s  solo= 60.4%  temp=23.0C  ar= 51.0%  luz= 39.1%
+T1 t=   12s  solo= 57.1%  temp=23.2C  ar= 52.8%  luz= 35.0%
+T1 t=   14s  solo= 57.9%  temp=23.2C  ar= 53.8%  luz= 24.9%
+T1 t=   16s  solo= 55.9%  temp=23.3C  ar= 55.7%  luz= 44.0%
+T1 t=   18s  solo= 55.9%  temp=23.8C  ar= 54.9%  luz= 65.5%
+T1 t=   20s  solo= 55.5%  temp=24.0C  ar= 56.5%  luz= 67.3%
+T1 t=   22s  solo= 56.0%  temp=23.8C  ar= 55.6%  luz= 67.9%
+T1 t=   24s  solo= 53.8%  temp=24.2C  ar= 56.0%  luz= 70.5%
+T1 t=   26s  solo= 54.2%  temp=24.4C  ar= 57.8%  luz= 60.7%
+T1 t=   28s  solo= 52.2%  temp=24.8C  ar= 60.6%  luz= 54.6%
+T1 t=   30s  solo= 50.2%  temp=24.8C  ar= 60.8%  luz= 83.3%
+T1 t=   32s  solo= 50.2%  temp=25.0C  ar= 60.2%  luz= 29.8%
+T1 t=   34s  solo= 49.1%  temp=24.7C  ar= 59.9%  luz= 66.5%
+T1 t=   36s  solo= 48.6%  temp=25.5C  ar= 61.7%  luz= 33.8%
+T1 t=   38s  solo= 48.7%  temp=25.7C  ar= 64.3%  luz= 71.4%
+T1 t=   40s  solo= 47.6%  temp=25.9C  ar= 63.0%  luz= 74.6%
+T1 t=   42s  solo= 46.1%  temp=25.6C  ar= 63.2%  luz= 54.8%
+T1 t=   44s  solo= 45.6%  temp=25.9C  ar= 63.0%  luz= 49.5%
+T1 t=   46s  solo= 47.0%  temp=26.2C  ar= 66.4%  luz= 61.2%
+T1 t=   48s  solo= 43.5%  temp=26.6C  ar= 68.0%  luz= 72.8%
+T1 t=   50s  solo= 43.8%  temp=26.2C  ar= 66.7%  luz= 57.9%
+T1 t=   52s  solo= 42.1%  temp=26.5C  ar= 66.6%  luz= 45.9%
+T1 t=   54s  solo= 41.1%  temp=26.6C  ar= 67.1%  luz= 46.8%
+T1 t=   56s  solo= 43.0%  temp=26.8C  ar= 69.7%  luz= 44.7%
+T1 t=   58s  solo= 40.7%  temp=27.6C  ar= 68.4%  luz= 72.9%
+T1 t=   60s  solo= 40.3%  temp=27.2C  ar= 69.0%  luz= 48.0%
+T1 t=   62s  solo= 40.6%  temp=27.3C  ar= 70.0%  luz= 70.7%
+T1 t=   64s  solo= 37.8%  temp=27.5C  ar= 72.2%  luz= 58.8%
+T1 t=   66s  solo= 39.2%  temp=27.9C  ar= 73.6%  luz= 48.7%
+T1 t=   68s  solo= 38.2%  temp=28.5C  ar= 73.6%  luz= 48.1%
+T1 t=   70s  solo= 37.6%  temp=28.7C  ar= 76.1%  luz= 66.0%
+   >>> ALERTA [MEDIA] RISCO_FUNGICO: Condição favorável ao fungo (ar úmido + temperatura 24-32 °C)
+       Ação: Intensificar monitoramento foliar e evitar irrigação por aspersão.
+T1 t=   72s  solo= 36.6%  temp=28.7C  ar= 73.8%  luz= 48.1%
+T1 t=   74s  solo= 33.7%  temp=28.6C  ar= 74.7%  luz= 63.0%
+T1 t=   76s  solo= 34.2%  temp=29.4C  ar= 78.1%  luz= 66.1%
+T1 t=   78s  solo= 32.8%  temp=29.0C  ar= 76.0%  luz= 48.4%
+T1 t=   80s  solo= 34.1%  temp=29.4C  ar= 79.1%  luz= 60.4%
+T1 t=   82s  solo= 30.9%  temp=29.9C  ar= 79.1%  luz= 62.9%
+T1 t=   84s  solo= 31.4%  temp=30.0C  ar= 77.9%  luz= 53.2%
+T1 t=   86s  solo= 32.1%  temp=29.9C  ar= 79.5%  luz= 65.4%
+T1 t=   88s  solo= 28.9%  temp=29.7C  ar= 79.1%  luz= 64.5%
+   >>> ALERTA [MEDIA] SOLO_SECO: Umidade do solo abaixo de 30%
+       Ação: Acionar irrigação no talhão.
+T1 t=   90s  solo= 28.1%  temp=30.4C  ar= 82.6%  luz= 56.9%
+T1 t=   92s  solo= 28.6%  temp=29.6C  ar= 80.6%  luz= 63.7%
+T1 t=   94s  solo= 27.8%  temp=29.9C  ar= 84.5%  luz= 62.7%
+T1 t=   96s  solo= 26.1%  temp=29.8C  ar= 82.5%  luz= 51.8%
+T1 t=   98s  solo= 25.5%  temp=29.7C  ar= 83.8%  luz= 59.5%
+T1 t=  100s  solo= 25.3%  temp=30.3C  ar= 85.2%  luz= 56.6%
+T1 t=  102s  solo= 24.7%  temp=30.0C  ar= 85.7%  luz= 49.5%
+T1 t=  104s  solo= 23.0%  temp=30.2C  ar= 84.3%  luz= 51.7%
+T1 t=  106s  solo= 23.9%  temp=29.9C  ar= 87.2%  luz= 55.5%
+T1 t=  108s  solo= 23.3%  temp=30.0C  ar= 86.2%  luz= 51.9%
+T1 t=  110s  solo= 22.5%  temp=30.0C  ar= 88.5%  luz= 59.0%
+T1 t=  112s  solo= 20.8%  temp=30.0C  ar= 89.6%  luz= 56.2%
+T1 t=  114s  solo= 20.1%  temp=30.0C  ar= 90.0%  luz= 57.8%
+T1 t=  116s  solo= 20.6%  temp=29.8C  ar= 92.3%  luz= 57.8%
+T1 t=  118s  solo= 19.8%  temp=29.7C  ar= 89.8%  luz= 52.4%
+T1 t=  120s  solo= 17.2%  temp=30.1C  ar= 90.3%  luz= 57.4%
+
+[ao vivo] fim do fluxo.

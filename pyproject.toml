@@ -1,0 +1,14 @@
+[tool.ruff]
+line-length = 120
+extend-exclude = [".venv", "data", "*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "UP"]
+ignore = ["E501"]          # linhas longas sao tratadas pelo formato de mensagens em portugues
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.bandit]
+exclude_dirs = [".venv", "tests", "data"]

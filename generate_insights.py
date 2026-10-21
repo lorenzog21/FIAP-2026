@@ -14,6 +14,8 @@ import json
 import random
 import hashlib
 
+import observabilidade
+
 GOLD_DIR = os.path.join("data", "gold")
 
 ABERTURAS_SAUDAVEL = [
@@ -30,7 +32,7 @@ ABERTURAS_DOENTE = [
 
 
 def _seeded_rng(chave):
-    seed = int(hashlib.md5(chave.encode("utf-8")).hexdigest(), 16) % (2**32)
+    seed = int(hashlib.md5(chave.encode("utf-8"), usedforsecurity=False).hexdigest(), 16) % (2**32)
     return random.Random(seed)
 
 
@@ -162,7 +164,10 @@ def gerar_insights(gold_results_path):
             "real_infected_area_percentage": registro["analysis_infected_area"]["real_infected_area_percentage"],
             "sensor_context": registro.get("sensor_context"),
         }
-        insights.append({"entrada": entrada, "diagnostico_gerado": gerar_diagnostico(registro)})
+        talhao = (registro.get("metadata") or {}).get("talhao_id")
+        with observabilidade.folha(registro["image"], "gerar_diagnostico_texto", "generate_insights.py", talhao):
+            texto = gerar_diagnostico(registro)
+        insights.append({"entrada": entrada, "diagnostico_gerado": texto})
 
     insights_path = os.path.join(GOLD_DIR, "insights.json")
     with open(insights_path, "w", encoding="utf-8") as f:

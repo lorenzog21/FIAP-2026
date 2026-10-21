@@ -1,0 +1,9 @@
+atividade,ocorrencias,media_s,mediana_s,p95_s,total_s,pct_do_tempo_total,erros
+extracao_features,24,3.5212,3.468,4.5012,84.51,63.3,0
+predicao_teste,39,0.659,0.572,1.1246,25.7,19.3,0
+treino_modelo,39,0.3111,0.296,0.4648,12.131,9.1,0
+ingestao,39,0.1415,0.069,0.4451,5.517,4.1,0
+processamento_dados,39,0.0631,0.06,0.0987,2.459,1.8,0
+geracao_insights,39,0.038,0.017,0.1452,1.482,1.1,0
+automacao_regras,39,0.0374,0.029,0.0813,1.457,1.1,0
+carregar_cache_silver,15,0.0098,0.009,0.0136,0.147,0.1,0

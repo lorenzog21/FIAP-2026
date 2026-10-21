@@ -1,0 +1,17 @@
+.venv
+.git
+.github
+__pycache__
+*.pyc
+.DS_Store
+data
+test
+entrega
+docs_fase6
+docs_fase7
+video
+*.ipynb
+*.mp4
+*.webm
+*.png
+*.svg

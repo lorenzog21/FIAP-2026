@@ -50,9 +50,9 @@ Arquivo completo: [`stream_simulado.csv`](../data/bronze/stream_sensores/stream_
 
 ## Capturas
 
-- [`simulacao_stream.png`](../entrega/prints/simulacao_stream.png): saída do `simulador_sensores.py --stdout`
-- [`simulacao_alerta_ao_vivo.png`](../entrega/prints/simulacao_alerta_ao_vivo.png): `demo_alerta_ao_vivo.py` disparando os alertas
-- [`pipeline_terminal.png`](../entrega/prints/pipeline_terminal.png): execução completa do pipeline
+- [`simulacao_stream.png`](../entrega/fase6/prints/simulacao_stream.png): saída do `simulador_sensores.py --stdout`
+- [`simulacao_alerta_ao_vivo.png`](../entrega/fase6/prints/simulacao_alerta_ao_vivo.png): `demo_alerta_ao_vivo.py` disparando os alertas
+- [`pipeline_terminal.png`](../entrega/fase6/prints/pipeline_terminal.png): execução completa do pipeline
 
 > As capturas de terminal são renderizações da saída real dos comandos, não prints da janela do terminal. Para o vídeo, rode os comandos ao vivo.
 

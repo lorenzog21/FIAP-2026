@@ -1,0 +1,3 @@
+variante,casos,duracao_media_s,pct_dos_casos
+extrair_atributos > classificar_folha > associar_sensor > gerar_diagnostico_texto > calcular_risco > arquivar_sem_acao_urgente,756,0.4623,96.9
+extrair_atributos > classificar_folha > associar_sensor > gerar_diagnostico_texto > calcular_risco > encaminhar_acao_prioritaria,24,0.5655,3.1

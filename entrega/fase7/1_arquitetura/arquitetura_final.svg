@@ -1,0 +1,169 @@
+<svg viewBox="0 0 1650 997" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif"><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#334155"/></marker><style>.ct{font-size:15px;font-weight:700;fill:#fff}.cl{font-size:12.5px;fill:#334155}.fase{font-size:11px;fill:#fff;opacity:.85}.fn{font-size:11.5px;fill:#0f172a;font-family:Menlo,Consolas,monospace}.ln{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#a)}.nb{font-size:11px;font-weight:700;fill:#fff;text-anchor:middle}.col{font-size:13px;font-weight:700;fill:#475569;letter-spacing:.07em}.lg{font-size:12.5px;fill:#334155}</style></defs><rect width="1650" height="997" fill="#f8fafc"/><text x="825.0" y="40" text-anchor="middle" style="font-size:25px;font-weight:700;fill:#0f172a">AgroSmart · Arquitetura final (Fase 7)</text><text x="825.0" y="62" text-anchor="middle" style="font-size:13px;fill:#64748b">Entrada (sensores e imagens) → Data Lake → processamento → decisão automatizada → dashboard; plataforma de containers, CI/CD, observabilidade e mineração de processos</text><rect x="30" y="135" width="270" height="157" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M30 169 V147 a12 12 0 0 1 12 -12 H288 a12 12 0 0 1 12 12 V169 z" fill="#2f7dc1"/>
+<text x="44" y="158" class="ct">Sensores simulados</text>
+<text x="44" y="193" class="cl">fluxo de leituras a cada 2 s</text>
+<text x="44" y="212" class="cl">temperatura · solo · ar · luz</text>
+<text x="44" y="231" class="cl">formato CSV de Serial</text>
+<rect x="44" y="260" width="235" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="52" y="274" class="fn">simulacao/simulador_sensores.py</text>
+<text x="288" y="158" text-anchor="end" class="fase">Fase 6</text>
+<rect x="30" y="318" width="270" height="157" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M30 352 V330 a12 12 0 0 1 12 -12 H288 a12 12 0 0 1 12 12 V352 z" fill="#2f7dc1"/>
+<text x="44" y="341" class="ct">Simulador de talhões</text>
+<text x="44" y="376" class="cl">4 talhões, cenários distintos</text>
+<text x="44" y="395" class="cl">~5% de falhas propositais</text>
+<text x="44" y="414" class="cl">lotes append-only</text>
+<rect x="44" y="443" width="81" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="52" y="457" class="fn">ingest.py</text>
+<text x="288" y="341" text-anchor="end" class="fase">Fase 5</text>
+<rect x="30" y="501" width="270" height="138" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M30 535 V513 a12 12 0 0 1 12 -12 H288 a12 12 0 0 1 12 12 V535 z" fill="#2f7dc1"/>
+<text x="44" y="524" class="ct">Imagens de folhas</text>
+<text x="44" y="559" class="cl">saudável × Black Rot</text>
+<text x="44" y="578" class="cl">2.266 de treino, 20 de teste</text>
+<rect x="44" y="607" width="158" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="52" y="621" class="fn">data/Apple___healthy</text>
+<text x="288" y="524" text-anchor="end" class="fase">Fase 5</text>
+<rect x="360" y="135" width="270" height="157" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M360 169 V147 a12 12 0 0 1 12 -12 H618 a12 12 0 0 1 12 12 V169 z" fill="#8a5a34"/>
+<text x="374" y="158" class="ct">Data Lake · Bronze</text>
+<text x="374" y="193" class="cl">dado como chegou</text>
+<text x="374" y="212" class="cl">versionado por lote</text>
+<text x="374" y="231" class="cl">ingestion_log.jsonl</text>
+<rect x="374" y="260" width="95" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="382" y="274" class="fn">data/bronze</text>
+<text x="618" y="158" text-anchor="end" class="fase">Fase 5</text>
+<rect x="690" y="135" width="270" height="157" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M690 169 V147 a12 12 0 0 1 12 -12 H948 a12 12 0 0 1 12 12 V169 z" fill="#6b7280"/>
+<text x="704" y="158" class="ct">Visão computacional + ML</text>
+<text x="704" y="193" class="cl">% de área doente</text>
+<text x="704" y="212" class="cl">classe: saudável × Black Rot</text>
+<text x="704" y="231" class="cl">orquestra o pipeline</text>
+<rect x="704" y="260" width="130" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="712" y="274" class="fn">appleAnalisys.py</text>
+<text x="948" y="158" text-anchor="end" class="fase">Fase 5</text>
+<rect x="690" y="318" width="270" height="157" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M690 352 V330 a12 12 0 0 1 12 -12 H948 a12 12 0 0 1 12 12 V352 z" fill="#6b7280"/>
+<text x="704" y="341" class="ct">Preparação de dados</text>
+<text x="704" y="376" class="cl">datas, tipos e unidades</text>
+<text x="704" y="395" class="cl">ausentes e outliers → interpolação</text>
+<text x="704" y="414" class="cl">risco_ambiental 0–1</text>
+<rect x="704" y="443" width="144" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="712" y="457" class="fn">processar_dados.py</text>
+<text x="948" y="341" text-anchor="end" class="fase">Fase 6</text>
+<rect x="1020" y="135" width="270" height="157" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M1020 169 V147 a12 12 0 0 1 12 -12 H1278 a12 12 0 0 1 12 12 V169 z" fill="#c28a00"/>
+<text x="1034" y="158" class="ct">Motor de regras</text>
+<text x="1034" y="193" class="cl">4 regras de sensor → alertas</text>
+<text x="1034" y="212" class="cl">risco da folha: baixo/médio/alto</text>
+<text x="1034" y="231" class="cl">decisão por talhão</text>
+<rect x="1034" y="260" width="102" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="1042" y="274" class="fn">automacao.py</text>
+<text x="1278" y="158" text-anchor="end" class="fase">Fase 6</text>
+<rect x="1020" y="318" width="270" height="138" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M1020 352 V330 a12 12 0 0 1 12 -12 H1278 a12 12 0 0 1 12 12 V352 z" fill="#c28a00"/>
+<text x="1034" y="341" class="ct">IA generativa simulada</text>
+<text x="1034" y="376" class="cl">diagnóstico em linguagem natural</text>
+<text x="1034" y="395" class="cl">mesma fórmula de risco</text>
+<rect x="1034" y="424" width="158" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="1042" y="438" class="fn">generate_insights.py</text>
+<text x="1278" y="341" text-anchor="end" class="fase">Fase 5</text>
+<rect x="1020" y="482" width="270" height="138" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M1020 516 V494 a12 12 0 0 1 12 -12 H1278 a12 12 0 0 1 12 12 V516 z" fill="#c28a00"/>
+<text x="1034" y="505" class="ct">Alerta ao vivo</text>
+<text x="1034" y="540" class="cl">regras no instante da leitura</text>
+<text x="1034" y="559" class="cl">histerese contra oscilação</text>
+<rect x="1034" y="588" width="172" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="1042" y="602" class="fn">demo_alerta_ao_vivo.py</text>
+<text x="1278" y="505" text-anchor="end" class="fase">Fase 6</text>
+<rect x="1350" y="135" width="270" height="157" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M1350 169 V147 a12 12 0 0 1 12 -12 H1608 a12 12 0 0 1 12 12 V169 z" fill="#2e9e5b"/>
+<text x="1364" y="158" class="ct">Dashboard analítico</text>
+<text x="1364" y="193" class="cl">valor atual e média</text>
+<text x="1364" y="212" class="cl">decisão por talhão</text>
+<text x="1364" y="231" class="cl">séries, risco, folhas, alertas</text>
+<rect x="1364" y="260" width="102" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="1372" y="274" class="fn">dashboard.py</text>
+<text x="1608" y="158" text-anchor="end" class="fase">Fase 6</text>
+<rect x="1350" y="318" width="270" height="157" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M1350 352 V330 a12 12 0 0 1 12 -12 H1608 a12 12 0 0 1 12 12 V352 z" fill="#2e9e5b"/>
+<text x="1364" y="341" class="ct">Saúde do sistema</text>
+<text x="1364" y="376" class="cl">status operacional/falha</text>
+<text x="1364" y="395" class="cl">duração por etapa</text>
+<text x="1364" y="414" class="cl">log da aplicação</text>
+<rect x="1364" y="443" width="207" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="1372" y="457" class="fn">pages/1_Saude_do_sistema.py</text>
+<text x="1608" y="341" text-anchor="end" class="fase">Fase 7</text>
+<rect x="18" y="680" width="1614" height="219" rx="14" fill="#f5f3ff" stroke="#c4b5fd" stroke-dasharray="6 4"/>
+<text x="30" y="702" class="col" style="fill:#7c3aed">PLATAFORMA · EMPACOTA, VALIDA, OBSERVA E ANALISA O SISTEMA</text>
+<rect x="30.0" y="720" width="382.5" height="157" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M30.0 754 V732 a12 12 0 0 1 12 -12 H400.5 a12 12 0 0 1 12 12 V754 z" fill="#7c3aed"/>
+<text x="44.0" y="743" class="ct">Containers</text>
+<text x="44.0" y="778" class="cl">usuário sem root</text>
+<text x="44.0" y="797" class="cl">healthcheck</text>
+<text x="44.0" y="816" class="cl">agendador a cada N s</text>
+<rect x="44.0" y="845" width="88" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="52.0" y="859" class="fn">Dockerfile</text>
+<text x="400.5" y="743" text-anchor="end" class="fase">Fase 7</text>
+<rect x="432.5" y="720" width="382.5" height="157" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M432.5 754 V732 a12 12 0 0 1 12 -12 H803.0 a12 12 0 0 1 12 12 V754 z" fill="#7c3aed"/>
+<text x="446.5" y="743" class="ct">Pipeline DevSecOps</text>
+<text x="446.5" y="778" class="cl">build + container</text>
+<text x="446.5" y="797" class="cl">qualidade e testes</text>
+<text x="446.5" y="816" class="cl">SAST, dependências, imagem</text>
+<rect x="446.5" y="845" width="186" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="454.5" y="859" class="fn">.github/workflows/ci.yml</text>
+<text x="803.0" y="743" text-anchor="end" class="fase">Fase 7</text>
+<rect x="835.0" y="720" width="382.5" height="157" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M835.0 754 V732 a12 12 0 0 1 12 -12 H1205.5 a12 12 0 0 1 12 12 V754 z" fill="#7c3aed"/>
+<text x="849.0" y="743" class="ct">Observabilidade</text>
+<text x="849.0" y="778" class="cl">log estruturado</text>
+<text x="849.0" y="797" class="cl">event log por etapa e por folha</text>
+<text x="849.0" y="816" class="cl">status e healthcheck</text>
+<rect x="849.0" y="845" width="144" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="857.0" y="859" class="fn">observabilidade.py</text>
+<text x="1205.5" y="743" text-anchor="end" class="fase">Fase 7</text>
+<rect x="1237.5" y="720" width="382.5" height="157" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M1237.5 754 V732 a12 12 0 0 1 12 -12 H1608.0 a12 12 0 0 1 12 12 V754 z" fill="#7c3aed"/>
+<text x="1251.5" y="743" class="ct">Mineração de processos</text>
+<text x="1251.5" y="778" class="cl">grafo de fluxo</text>
+<text x="1251.5" y="797" class="cl">gargalos e variantes</text>
+<text x="1251.5" y="816" class="cl">oportunidades</text>
+<rect x="1251.5" y="845" width="151" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>
+<text x="1259.5" y="859" class="fn">analise_processo.py</text>
+<text x="1608.0" y="743" text-anchor="end" class="fase">Fase 7</text>
+<text x="30" y="88" class="col">1 · FONTES DE DADOS</text>
+<text x="360" y="88" class="col">2 · INGESTÃO</text>
+<text x="690" y="88" class="col">3 · PROCESSAMENTO</text>
+<text x="1020" y="88" class="col">4 · DECISÃO AUTOMATIZADA</text>
+<text x="1350" y="88" class="col">5 · VISUALIZAÇÃO E MONITORAMENTO</text>
+<path d="M300 213.5 H314 V174.25 H360" class="ln"/>
+<circle cx="315" cy="213.5" r="10" fill="#0f172a"/><text x="315" y="217.5" class="nb">1</text>
+<path d="M300 396.5 H325 V213.5 H360" class="ln"/>
+<circle cx="315" cy="396.5" r="10" fill="#0f172a"/><text x="315" y="400.5" class="nb">2</text>
+<path d="M300 570.0 H336 V252.75 H360" class="ln"/>
+<circle cx="315" cy="570.0" r="10" fill="#0f172a"/><text x="315" y="574.0" class="nb">3</text>
+<path d="M630 174.25 H644 V213.5 H690" class="ln"/>
+<circle cx="645" cy="174.25" r="10" fill="#0f172a"/><text x="645" y="178.25" class="nb">4</text>
+<path d="M630 213.5 H655 V370.3333333333333 H690" class="ln"/>
+<circle cx="645" cy="213.5" r="10" fill="#0f172a"/><text x="645" y="217.5" class="nb">5</text>
+<path d="M825.0 292 V318" class="ln"/>
+<circle cx="825.0" cy="305.0" r="10" fill="#0f172a"/><text x="825.0" y="309.0" class="nb">6</text>
+<path d="M960 174.25 H974 V187.33333333333334 H1020" class="ln"/>
+<circle cx="975" cy="174.25" r="10" fill="#0f172a"/><text x="975" y="178.25" class="nb">7</text>
+<path d="M960 396.5 H985 V239.66666666666669 H1020" class="ln"/>
+<circle cx="975" cy="396.5" r="10" fill="#0f172a"/><text x="975" y="400.5" class="nb">8</text>
+<path d="M960 213.5 H996 V387.0 H1020" class="ln"/>
+<circle cx="975" cy="213.5" r="10" fill="#0f172a"/><text x="975" y="217.5" class="nb">9</text>
+<path d="M630 252.75 H653 V110 H1007 V551.0 H1020" class="ln"/>
+<circle cx="1007" cy="110" r="10" fill="#0f172a"/><text x="1007" y="114" class="nb">10</text>
+<path d="M1290 213.5 H1304 V174.25 H1350" class="ln"/>
+<circle cx="1305" cy="213.5" r="10" fill="#0f172a"/><text x="1305" y="217.5" class="nb">11</text>
+<path d="M1290 387.0 H1315 V213.5 H1350" class="ln"/>
+<circle cx="1305" cy="387.0" r="10" fill="#0f172a"/><text x="1305" y="391.0" class="nb">12</text>
+<path d="M1290 551.0 H1326 V252.75 H1350" class="ln"/>
+<circle cx="1305" cy="551.0" r="10" fill="#0f172a"/><text x="1305" y="555.0" class="nb">13</text>
+<path d="M1026.25 720 V696 H1390 V475" class="ln"/>
+<circle cx="1390" cy="696" r="10" fill="#0f172a"/><text x="1390" y="700" class="nb">14</text>
+<path d="M1217.5 824.6666666666666 H1237.5" class="ln"/>
+<circle cx="1227.5" cy="824.6666666666666" r="10" fill="#0f172a"/><text x="1227.5" y="828.6666666666666" class="nb">15</text><text x="30" y="945" class="lg">Setas numeradas: ver tabela de fluxo em 01_arquitetura_final.md · Execução: docker compose up --build  →  http://localhost:8501</text><text x="30" y="967" class="lg">Fonte única: arquitetura.toml (este diagrama e a documentação são gerados dele)</text></svg>

@@ -1,0 +1,34 @@
+# Testes + cobertura (pytest)  (2026-10-21 20:50:44)
+# comando: docker run --rm agrosmart:ci pytest --cov=. --cov-report=term
+
+...................                                                      [100%]
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.15-final-0 _______________
+
+Name                              Stmts   Miss  Cover
+-----------------------------------------------------
+analise_processo.py                 168    137    18%
+appleAnalisys.py                    209    209     0%
+automacao.py                        102     69    32%
+dashboard.py                        154    154     0%
+demo_alerta_ao_vivo.py               35     35     0%
+generate_insights.py                142     97    32%
+ingest.py                           129    129     0%
+observabilidade.py                   90      3    97%
+processar_dados.py                   83     38    54%
+scripts/__init__.py                   0      0   100%
+scripts/capturas.py                  34     34     0%
+scripts/status.py                    35     13    63%
+scripts/verificar_entrega.py        125    125     0%
+simulacao/__init__.py                 0      0   100%
+simulacao/simulador_sensores.py      30     10    67%
+tests/conftest.py                     9      0   100%
+tests/test_analise_processo.py       23      0   100%
+tests/test_observabilidade.py        51      0   100%
+tests/test_processamento.py          26      0   100%
+tests/test_regras.py                 28      0   100%
+tests/test_simulacao.py              10      0   100%
+-----------------------------------------------------
+TOTAL                              1483   1053    29%
+19 passed in 0.83s
+RESULTADO: OK

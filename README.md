@@ -1,3 +1,30 @@
+# AgroSmart -- Fase 7 (entrega final)
+
+> Turma ESOA4 · Cayo Gonçalves de Morais Malara (RM 551243) · Igor Nunes Teixeira (RM 551099) · Lorenzo Guimarães (RM 99621) · Thiago Bullara Leite (RM 99461)
+
+**Comece por [`docs_fase7/GUIA_DA_ENTREGA.html`](docs_fase7/GUIA_DA_ENTREGA.html)**: para cada requisito, o que é exigido, onde está o artefato e se está pronto. O progresso fino está em [`docs_fase7/CHECKLIST_FASE7.md`](docs_fase7/CHECKLIST_FASE7.md).
+
+| Requisito | Documento | Evidências |
+|---|---|---|
+| 1. Arquitetura final | [01_arquitetura_final.md](docs_fase7/01_arquitetura_final.md) | `entrega/fase7/1_arquitetura/` |
+| 2. Execução da plataforma | [02_execucao.md](docs_fase7/02_execucao.md) | `entrega/fase7/2_execucao/` |
+| 3. Pipeline DevSecOps | [03_devsecops.md](docs_fase7/03_devsecops.md) | `entrega/fase7/3_devsecops/` |
+| 4. Monitoramento | [04_monitoramento.md](docs_fase7/04_monitoramento.md) | `entrega/fase7/4_monitoramento/` |
+| 5. Análise de processo e vídeo final | [05_processo.md](docs_fase7/05_processo.md), [roteiro](docs_fase7/roteiro_video_final.md) | `entrega/fase7/5_processo_e_video_final/` |
+| 6. Pitch | [roteiro_pitch.md](docs_fase7/roteiro_pitch.md) | `entrega/fase7/6_pitch/` |
+
+```bash
+docker compose up --build                       # pipeline + dashboard em http://localhost:8501
+docker compose --profile continuo up -d         # + execução agendada (monitorada na página "Saúde do sistema")
+bash scripts/ci_local.sh                        # pipeline DevSecOps local (ruff, pytest, bandit, pip-audit, trivy)
+python analise_processo.py                      # mineração de processos sobre o event log
+python scripts/verificar_entrega.py             # confere a coerência da entrega
+```
+
+Os dados de sensor e os cenários por talhão são **simulados**.
+
+---
+
 # AgroSmart -- Fase 6 (plataforma integrada)
 
 > **AgroSmart — Fase 6** · Turma ESOA4 · Cayo Gonçalves de Morais Malara (RM 551243) · Igor Nunes Teixeira (RM 551099) · Lorenzo Guimarães (RM 99621) · Thiago Bullara Leite (RM 99461)
