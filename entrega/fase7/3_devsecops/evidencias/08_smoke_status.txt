@@ -1,0 +1,17 @@
+# Smoke test: status do pipeline  (2026-10-21 20:52:20)
+# comando: docker run --rm -v /var/folders/ry/2qlky7q52v1c8p_93lp2q57w0000gn/T/tmp.uaJJXXnAYb/data:/app/data agrosmart:local python scripts/status.py
+
+AgroSmart · status do pipeline
+  estado                 operacional
+  codigo                 0
+  ultima_execucao        20261021T185157-d68f
+  status_ultima          sucesso
+  modo                   completo
+  idade_s                1
+  duracao_s              23.385
+  execucoes_registradas  42
+  taxa_sucesso           1.0
+  alertas_sensor         17
+  leituras_anomalas      10
+  leituras_sensor        160
+RESULTADO: OK

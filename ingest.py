@@ -38,7 +38,7 @@ EQUIPAMENTOS = ["drone", "camera_manual"]
 
 
 def _hash_int(chave):
-    return int(hashlib.md5(chave.encode("utf-8")).hexdigest(), 16)
+    return int(hashlib.md5(chave.encode("utf-8"), usedforsecurity=False).hexdigest(), 16)
 
 
 # Cenario de simulacao por talhao: faixas (min, max) das bases de cada

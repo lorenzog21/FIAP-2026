@@ -1,0 +1,5 @@
+# Qualidade: ruff  (2026-10-21 20:50:43)
+# comando: docker run --rm agrosmart:ci ruff check .
+
+All checks passed!
+RESULTADO: OK

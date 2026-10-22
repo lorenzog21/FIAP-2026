@@ -38,8 +38,8 @@ if __name__ == "__main__":
     if "--stdout" in sys.argv:
         ritmo = float(sys.argv[sys.argv.index("--ritmo") + 1]) if "--ritmo" in sys.argv else 0
         print(CABECALHO, flush=True)
-        for l in linhas():
-            print(l, flush=True)
+        for linha in linhas():
+            print(linha, flush=True)
             time.sleep(ritmo)
     else:
         os.makedirs(os.path.dirname(SAIDA), exist_ok=True)

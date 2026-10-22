@@ -8,9 +8,9 @@ rm -f "$SAIDA"
 zip -r "$SAIDA" \
   README.md requirements.txt \
   ingest.py appleAnalisys.py generate_insights.py processar_dados.py automacao.py dashboard.py \
-  simulacao docs_fase6 entrega test demo_alerta_ao_vivo.py \
+  simulacao docs_fase6 entrega/fase6 entrega/IDENTIFICACAO.md test demo_alerta_ao_vivo.py \
   data/bronze data/silver data/gold \
   exemplos_ia_generativa.md diagrama_*.md diagrama_*.svg \
   -x "*.DS_Store" "*/__pycache__/*"
 echo "Gerado: $SAIDA ($(du -h "$SAIDA" | cut -f1))"
-echo "Confira se entrega/prints/ tem os prints e se entrega/LINK_VIDEO.txt existe."
+echo "Confira se entrega/fase6/prints/ tem os prints e se entrega/fase6/LINK_VIDEO.txt existe."

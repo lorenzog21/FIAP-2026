@@ -1,0 +1,686 @@
+{"ts": "2026-10-21T18:32:37.043", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "execucao iniciada", "modo": "completo", "seed": 0}
+{"ts": "2026-10-21T18:32:37.044", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:32:37.105", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.06, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:32:37.105", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:32:40.744", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.637, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:32:40.761", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:32:41.066", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.304, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:32:41.066", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:32:42.122", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.055, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:32:42.124", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:32:42.158", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.034, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:32:42.159", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:32:42.224", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.064, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:32:42.224", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:32:42.251", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.027, "resultado": "ok", "registros": 17}
+{"ts": "2026-10-21T18:32:42.252", "nivel": "INFO", "run_id": "20261021T183237-7d20", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 5.209}
+{"ts": "2026-10-21T18:32:44.286", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "execucao iniciada", "modo": "completo", "seed": 1792607562}
+{"ts": "2026-10-21T18:32:44.287", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:32:44.347", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.059, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:32:44.347", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:32:47.212", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 2.863, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:32:47.227", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:32:47.538", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.31, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:32:47.539", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:32:48.510", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.971, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:32:48.512", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:32:48.526", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.013, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:32:48.526", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:32:48.593", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.067, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:32:48.594", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:32:48.620", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.025, "resultado": "ok", "registros": 24}
+{"ts": "2026-10-21T18:32:48.620", "nivel": "INFO", "run_id": "20261021T183244-42d1", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 4.334}
+{"ts": "2026-10-21T18:33:15.136", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792607593}
+{"ts": "2026-10-21T18:33:15.137", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:33:15.188", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.05, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:33:15.188", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:33:15.197", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.008, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:33:15.207", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:33:15.489", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.281, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:33:15.490", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:33:16.300", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.81, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:33:16.303", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:33:16.315", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.012, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:33:16.315", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:33:16.354", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.039, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:33:16.354", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:33:16.378", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.024, "resultado": "ok", "registros": 14}
+{"ts": "2026-10-21T18:33:16.379", "nivel": "INFO", "run_id": "20261021T183315-938b", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 1.242}
+{"ts": "2026-10-21T18:33:42.832", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "execucao iniciada", "modo": "completo", "seed": 1792607621}
+{"ts": "2026-10-21T18:33:42.833", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:33:42.876", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.043, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:33:42.876", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:33:46.151", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.274, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:33:46.162", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:33:46.454", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.291, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:33:46.454", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:33:47.507", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.052, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:33:47.509", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:33:47.522", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.013, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:33:47.522", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:33:47.581", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.058, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:33:47.581", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:33:47.607", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.026, "resultado": "ok", "registros": 11}
+{"ts": "2026-10-21T18:33:47.608", "nivel": "INFO", "run_id": "20261021T183342-bab6", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 4.776}
+{"ts": "2026-10-21T18:34:14.069", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792607652}
+{"ts": "2026-10-21T18:34:14.070", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:34:14.116", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.046, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:34:14.117", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:34:14.125", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.008, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:34:14.135", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:34:14.420", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.284, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:34:14.421", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:34:15.262", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.841, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:34:15.264", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:34:15.276", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.012, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:34:15.276", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:34:15.312", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.035, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:34:15.312", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:34:15.337", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.024, "resultado": "ok", "registros": 26}
+{"ts": "2026-10-21T18:34:15.337", "nivel": "INFO", "run_id": "20261021T183414-4b2f", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 1.269}
+{"ts": "2026-10-21T18:34:41.742", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "execucao iniciada", "modo": "completo", "seed": 1792607680}
+{"ts": "2026-10-21T18:34:41.744", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:34:41.796", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.052, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:34:41.797", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:34:44.706", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 2.909, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:34:44.716", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:34:44.995", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.278, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:34:44.996", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:34:45.935", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.939, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:34:45.937", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:34:45.948", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.011, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:34:45.948", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:34:46.006", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.057, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:34:46.006", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:34:46.032", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.026, "resultado": "ok", "registros": 14}
+{"ts": "2026-10-21T18:34:46.032", "nivel": "INFO", "run_id": "20261021T183441-b4ed", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 4.29}
+{"ts": "2026-10-21T20:35:03.086", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "execucao iniciada", "modo": "completo", "seed": 0}
+{"ts": "2026-10-21T20:35:03.086", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T20:35:03.128", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.041, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T20:35:03.128", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T20:35:05.230", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 2.102, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T20:35:05.238", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T20:35:05.467", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.229, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T20:35:05.467", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T20:35:06.063", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.596, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T20:35:06.064", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T20:35:06.072", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.008, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T20:35:06.072", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T20:35:06.114", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.042, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T20:35:06.114", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T20:35:06.139", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.025, "resultado": "ok", "registros": 17}
+{"ts": "2026-10-21T20:35:06.139", "nivel": "INFO", "run_id": "20261021T203503-d69e", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 3.054}
+{"ts": "2026-10-21T18:35:12.499", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792607711}
+{"ts": "2026-10-21T18:35:12.501", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:35:12.546", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.045, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:35:12.546", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:35:12.555", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.008, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:35:12.565", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:35:12.836", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.27, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:35:12.837", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:35:13.708", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.871, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:35:13.710", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:35:13.723", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.012, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:35:13.723", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:35:13.760", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.036, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:35:13.760", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:35:13.788", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.028, "resultado": "ok", "registros": 12}
+{"ts": "2026-10-21T18:35:13.789", "nivel": "INFO", "run_id": "20261021T183512-958b", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 1.289}
+{"ts": "2026-10-21T18:35:40.353", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "execucao iniciada", "modo": "completo", "seed": 1792607738}
+{"ts": "2026-10-21T18:35:40.354", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:35:40.413", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.057, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:35:40.413", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:35:43.848", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.434, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:35:43.859", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:35:44.171", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.311, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:35:44.171", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:35:45.244", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.072, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:35:45.246", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:35:45.272", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.025, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:35:45.272", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:35:45.331", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.059, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:35:45.332", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:35:45.357", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.025, "resultado": "ok", "registros": 19}
+{"ts": "2026-10-21T18:35:45.357", "nivel": "INFO", "run_id": "20261021T183540-830b", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 5.004}
+{"ts": "2026-10-21T18:36:11.871", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792607770}
+{"ts": "2026-10-21T18:36:11.873", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:36:11.963", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.089, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:36:11.964", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:36:11.979", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.015, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:36:11.990", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:36:12.274", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.284, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:36:12.275", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:36:13.257", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.981, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:36:13.259", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:36:13.272", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.013, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:36:13.272", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:36:13.319", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.046, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:36:13.319", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:36:13.400", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.08, "resultado": "ok", "registros": 19}
+{"ts": "2026-10-21T18:36:13.400", "nivel": "INFO", "run_id": "20261021T183611-01ed", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 1.529}
+{"ts": "2026-10-21T18:36:39.997", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "execucao iniciada", "modo": "completo", "seed": 1792607798}
+{"ts": "2026-10-21T18:36:39.998", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:36:40.076", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.077, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:36:40.077", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:36:43.702", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.624, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:36:43.719", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:36:44.056", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.337, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:36:44.057", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:36:45.170", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.112, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:36:45.172", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:36:45.267", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.095, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:36:45.267", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:36:45.332", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.065, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:36:45.332", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:36:45.365", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.031, "resultado": "ok", "registros": 27}
+{"ts": "2026-10-21T18:36:45.365", "nivel": "INFO", "run_id": "20261021T183639-2b5d", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 5.368}
+{"ts": "2026-10-21T18:37:12.435", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792607830}
+{"ts": "2026-10-21T18:37:12.438", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:37:12.776", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.337, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:37:12.776", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:37:12.790", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.013, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:37:12.803", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:37:13.348", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.544, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:37:13.348", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:37:14.738", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.389, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:37:14.740", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:37:14.883", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.142, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:37:14.883", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:37:15.025", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.141, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:37:15.026", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:37:15.120", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.093, "resultado": "ok", "registros": 16}
+{"ts": "2026-10-21T18:37:15.121", "nivel": "INFO", "run_id": "20261021T183712-d792", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 2.685}
+{"ts": "2026-10-21T18:37:41.785", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "execucao iniciada", "modo": "completo", "seed": 1792607860}
+{"ts": "2026-10-21T18:37:41.786", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:37:41.857", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.07, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:37:41.857", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:37:45.161", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.302, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:37:45.173", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:37:45.502", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.328, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:37:45.506", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:37:46.519", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.012, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:37:46.523", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:37:46.538", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.015, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:37:46.538", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:37:46.602", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.063, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:37:46.602", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:37:46.635", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.032, "resultado": "ok", "registros": 18}
+{"ts": "2026-10-21T18:37:46.638", "nivel": "INFO", "run_id": "20261021T183741-61ef", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 4.85}
+{"ts": "2026-10-21T18:38:13.634", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792607891}
+{"ts": "2026-10-21T18:38:13.635", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:38:13.840", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.204, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:38:13.840", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:38:13.848", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.008, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:38:13.861", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:38:14.220", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.358, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:38:14.220", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:38:15.237", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.017, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:38:15.239", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:38:15.414", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.174, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:38:15.414", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:38:15.464", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.05, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:38:15.465", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:38:15.494", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.029, "resultado": "ok", "registros": 17}
+{"ts": "2026-10-21T18:38:15.497", "nivel": "INFO", "run_id": "20261021T183813-838c", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 1.861}
+{"ts": "2026-10-21T18:38:43.166", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "execucao iniciada", "modo": "completo", "seed": 1792607920}
+{"ts": "2026-10-21T18:38:43.169", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:38:43.574", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.405, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:38:43.575", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:38:47.250", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.674, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:38:47.262", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:38:47.588", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.325, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:38:47.589", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:38:48.608", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.019, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:38:48.611", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:38:48.999", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.388, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:38:49.000", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:38:49.068", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.068, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:38:49.069", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:38:49.099", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.03, "resultado": "ok", "registros": 18}
+{"ts": "2026-10-21T18:38:49.099", "nivel": "INFO", "run_id": "20261021T183843-348e", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 5.933}
+{"ts": "2026-10-21T18:39:15.911", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792607954}
+{"ts": "2026-10-21T18:39:15.915", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:39:16.006", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.091, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:39:16.007", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:39:16.016", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.009, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:39:16.028", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:39:16.355", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.326, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:39:16.355", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:39:17.430", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.074, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:39:17.432", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:39:17.449", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.017, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:39:17.449", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:39:17.512", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.062, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:39:17.512", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:39:17.551", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.038, "resultado": "ok", "registros": 19}
+{"ts": "2026-10-21T18:39:17.552", "nivel": "INFO", "run_id": "20261021T183915-b040", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 1.64}
+{"ts": "2026-10-21T18:39:44.265", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "execucao iniciada", "modo": "completo", "seed": 1792607982}
+{"ts": "2026-10-21T18:39:44.268", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:39:44.334", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.065, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:39:44.335", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:39:47.696", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.36, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:39:47.707", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:39:48.027", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.319, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:39:48.028", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:39:49.082", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.054, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:39:49.084", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:39:49.099", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.015, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:39:49.100", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:39:49.150", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.05, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:39:49.150", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:39:49.178", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.027, "resultado": "ok", "registros": 19}
+{"ts": "2026-10-21T18:39:49.179", "nivel": "INFO", "run_id": "20261021T183944-ca7f", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 4.913}
+{"ts": "2026-10-21T18:40:16.271", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792608014}
+{"ts": "2026-10-21T18:40:16.316", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:40:16.531", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.214, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:40:16.531", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:40:16.544", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.012, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:40:16.557", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:40:17.106", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.548, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:40:17.106", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:40:18.345", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.238, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:40:18.349", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:40:18.432", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.082, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:40:18.433", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:40:18.596", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.163, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:40:18.597", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:40:18.638", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.04, "resultado": "ok", "registros": 10}
+{"ts": "2026-10-21T18:40:18.639", "nivel": "INFO", "run_id": "20261021T184016-f302", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 2.367}
+{"ts": "2026-10-21T18:40:45.802", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "execucao iniciada", "modo": "completo", "seed": 1792608044}
+{"ts": "2026-10-21T18:40:45.806", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:40:46.633", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.826, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:40:46.635", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:40:50.028", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.392, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:40:50.041", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:40:50.378", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.337, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:40:50.379", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:40:51.412", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.033, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:40:51.414", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:40:51.434", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.019, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:40:51.434", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:40:51.515", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.08, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:40:51.515", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:40:51.547", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.032, "resultado": "ok", "registros": 25}
+{"ts": "2026-10-21T18:40:51.548", "nivel": "INFO", "run_id": "20261021T184045-c1de", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 5.745}
+{"ts": "2026-10-21T18:41:12.563", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "execucao iniciada", "modo": "completo", "seed": 0}
+{"ts": "2026-10-21T18:41:12.563", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:41:12.615", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.051, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:41:12.616", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:41:16.346", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.729, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:41:16.357", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:41:16.793", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.434, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:41:16.793", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:41:18.112", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.317, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:41:18.115", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:41:18.350", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.234, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:41:18.352", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:41:18.604", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.25, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:41:18.605", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:41:18.660", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.053, "resultado": "ok", "registros": 17}
+{"ts": "2026-10-21T18:41:18.663", "nivel": "INFO", "run_id": "20261021T184112-14b3", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 6.099}
+{"ts": "2026-10-21T18:41:23.261", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "execucao iniciada", "modo": "completo", "seed": 1792608080}
+{"ts": "2026-10-21T18:41:23.262", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:41:23.348", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.085, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:41:23.349", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:41:27.534", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 4.184, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:41:27.550", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:41:27.902", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.351, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:41:27.903", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:41:29.187", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 1.284, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:41:29.190", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:41:29.314", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.124, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:41:29.315", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:41:29.398", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.083, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:41:29.399", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:41:29.435", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.036, "resultado": "ok", "registros": 30}
+{"ts": "2026-10-21T18:41:29.436", "nivel": "INFO", "run_id": "20261021T184123-cad6", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 6.175}
+{"ts": "2026-10-21T18:41:38.666", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "execucao iniciada", "modo": "completo", "seed": 0}
+{"ts": "2026-10-21T18:41:38.669", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:41:39.368", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.698, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:41:39.369", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:41:43.811", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 4.44, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:41:43.828", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:41:44.128", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.3, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:41:44.128", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:41:44.448", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.319, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:41:44.451", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:41:44.492", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.04, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:41:44.492", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:41:44.581", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.088, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:41:44.581", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:41:44.734", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.153, "resultado": "ok", "registros": 17}
+{"ts": "2026-10-21T18:41:44.735", "nivel": "INFO", "run_id": "20261021T184138-d215", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 6.069}
+{"ts": "2026-10-21T18:41:48.188", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "execucao iniciada", "modo": "completo", "seed": 1792608105}
+{"ts": "2026-10-21T18:41:48.191", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:41:48.482", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.291, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:41:48.483", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:41:52.998", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 4.512, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:41:53.013", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:41:53.470", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.456, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:41:53.470", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:41:53.947", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.476, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:41:53.951", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:41:53.979", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.028, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:41:53.980", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:41:54.073", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.092, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:41:54.073", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:41:54.125", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.052, "resultado": "ok", "registros": 16}
+{"ts": "2026-10-21T18:41:54.126", "nivel": "INFO", "run_id": "20261021T184148-dc05", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 5.938}
+{"ts": "2026-10-21T18:42:16.347", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792608134}
+{"ts": "2026-10-21T18:42:16.350", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:42:16.426", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.076, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:42:16.427", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:42:16.436", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.009, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:42:16.447", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:42:16.746", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.296, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:42:16.754", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:42:17.158", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.404, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:42:17.161", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:42:17.183", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.022, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:42:17.185", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:42:17.250", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.065, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:42:17.250", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:42:17.280", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.029, "resultado": "ok", "registros": 27}
+{"ts": "2026-10-21T18:42:17.281", "nivel": "INFO", "run_id": "20261021T184216-331f", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 0.934}
+{"ts": "2026-10-21T18:42:38.803", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "execucao iniciada", "modo": "completo", "seed": 1792608157}
+{"ts": "2026-10-21T18:42:38.804", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:42:38.853", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.048, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:42:38.853", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:42:42.390", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.53, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:42:42.403", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:42:42.687", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.283, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:42:42.687", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:42:43.009", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.322, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:42:43.011", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:42:43.031", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.019, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:42:43.031", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:42:43.099", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.067, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:42:43.101", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:42:43.127", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.027, "resultado": "ok", "registros": 24}
+{"ts": "2026-10-21T18:42:43.128", "nivel": "INFO", "run_id": "20261021T184238-9be2", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 4.325}
+{"ts": "2026-10-21T18:43:04.868", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792608183}
+{"ts": "2026-10-21T18:43:04.869", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:43:04.939", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.069, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:43:04.939", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:43:04.950", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.01, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:43:04.960", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:43:05.210", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.249, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:43:05.211", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:43:05.493", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.281, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:43:05.494", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:43:05.516", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.021, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:43:05.516", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:43:05.558", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.041, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:43:05.558", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:43:05.583", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.024, "resultado": "ok", "registros": 8}
+{"ts": "2026-10-21T18:43:05.584", "nivel": "INFO", "run_id": "20261021T184304-994c", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 0.715}
+{"ts": "2026-10-21T18:43:27.129", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "execucao iniciada", "modo": "completo", "seed": 1792608205}
+{"ts": "2026-10-21T18:43:27.130", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:43:27.191", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.06, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:43:27.191", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:43:30.578", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.386, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:43:30.590", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:43:30.848", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.258, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:43:30.849", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:43:31.122", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.273, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:43:31.124", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:43:31.138", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.014, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:43:31.138", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:43:31.191", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.052, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:43:31.191", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:43:31.220", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.029, "resultado": "ok", "registros": 12}
+{"ts": "2026-10-21T18:43:31.222", "nivel": "INFO", "run_id": "20261021T184327-5088", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 4.092}
+{"ts": "2026-10-21T18:43:52.762", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792608231}
+{"ts": "2026-10-21T18:43:52.762", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:43:52.821", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.058, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:43:52.822", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:43:52.831", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.008, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:43:52.842", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:43:53.094", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.251, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:43:53.095", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:43:53.421", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.326, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:43:53.423", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:43:53.435", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.012, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:43:53.435", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:43:53.485", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.05, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:43:53.485", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:43:53.527", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.041, "resultado": "ok", "registros": 18}
+{"ts": "2026-10-21T18:43:53.528", "nivel": "INFO", "run_id": "20261021T184352-470b", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 0.766}
+{"ts": "2026-10-21T18:44:15.211", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "execucao iniciada", "modo": "completo", "seed": 1792608253}
+{"ts": "2026-10-21T18:44:15.216", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:44:15.258", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.042, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:44:15.258", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:44:19.156", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.894, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:44:19.178", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:44:19.497", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.318, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:44:19.497", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:44:19.787", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.29, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:44:19.807", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:44:19.821", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.014, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:44:19.821", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:44:19.900", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.078, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:44:19.900", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:44:19.927", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.027, "resultado": "ok", "registros": 12}
+{"ts": "2026-10-21T18:44:19.928", "nivel": "INFO", "run_id": "20261021T184415-0894", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 4.717}
+{"ts": "2026-10-21T18:44:41.542", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792608280}
+{"ts": "2026-10-21T18:44:41.543", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:44:41.615", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.072, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:44:41.617", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:44:41.627", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.009, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:44:41.638", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:44:41.890", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.252, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:44:41.891", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:44:42.170", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.279, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:44:42.172", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:44:42.189", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.016, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:44:42.189", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:44:42.226", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.036, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:44:42.226", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:44:42.253", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.027, "resultado": "ok", "registros": 26}
+{"ts": "2026-10-21T18:44:42.254", "nivel": "INFO", "run_id": "20261021T184441-0a2b", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 0.712}
+{"ts": "2026-10-21T18:45:03.789", "nivel": "INFO", "run_id": "20261021T184503-e6c6", "msg": "execucao iniciada", "modo": "completo", "seed": 1792608302}
+{"ts": "2026-10-21T18:45:03.791", "nivel": "INFO", "run_id": "20261021T184503-e6c6", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:45:03.848", "nivel": "INFO", "run_id": "20261021T184503-e6c6", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.057, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:45:03.848", "nivel": "INFO", "run_id": "20261021T184503-e6c6", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:45:07.592", "nivel": "INFO", "run_id": "20261021T184503-e6c6", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.742, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:45:07.606", "nivel": "INFO", "run_id": "20261021T184503-e6c6", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:45:08.017", "nivel": "INFO", "run_id": "20261021T184503-e6c6", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.409, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:45:08.018", "nivel": "INFO", "run_id": "20261021T184503-e6c6", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:45:30.656+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "execucao iniciada", "modo": "completo", "seed": 0}
+{"ts": "2026-10-21T18:45:30.658+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:45:30.745+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.086, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:45:30.745+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:45:34.417+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.671, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:45:34.427+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:45:34.708+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.28, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:45:34.708+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:45:35.014+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.305, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:45:35.016+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:45:35.030+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.013, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:45:35.030+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:45:35.095+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.064, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:45:35.095+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:45:35.120+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.024, "resultado": "ok", "registros": 17}
+{"ts": "2026-10-21T18:45:35.120+00:00", "nivel": "INFO", "run_id": "20261021T184530-3782", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 4.464}
+{"ts": "2026-10-21T18:45:37.377+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "execucao iniciada", "modo": "completo", "seed": 1792608335}
+{"ts": "2026-10-21T18:45:37.377+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:45:37.425+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.047, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:45:37.426+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:45:40.535+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.103, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:45:40.546+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:45:40.812+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.265, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:45:40.812+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:45:41.158+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.346, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:45:41.160+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:45:41.176+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.015, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:45:41.176+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:45:41.219+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.042, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:45:41.219+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:45:41.254+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.033, "resultado": "ok", "registros": 16}
+{"ts": "2026-10-21T18:45:41.255+00:00", "nivel": "INFO", "run_id": "20261021T184537-f87f", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 3.878}
+{"ts": "2026-10-21T18:46:02.785+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792608361}
+{"ts": "2026-10-21T18:46:02.785+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:46:02.836+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.05, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:46:02.837+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:46:02.846+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.009, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:46:02.858+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:46:03.127+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.268, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:46:03.127+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:46:03.414+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.286, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:46:03.416+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:46:03.433+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.017, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:46:03.433+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:46:03.475+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.042, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:46:03.476+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:46:03.502+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.026, "resultado": "ok", "registros": 13}
+{"ts": "2026-10-21T18:46:03.503+00:00", "nivel": "INFO", "run_id": "20261021T184602-d5c3", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 0.718}
+{"ts": "2026-10-21T18:46:25.200+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "execucao iniciada", "modo": "completo", "seed": 1792608383}
+{"ts": "2026-10-21T18:46:25.201+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:46:25.278+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.077, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:46:25.279+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:46:28.963+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.683, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:46:28.976+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:46:29.244+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.267, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:46:29.244+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:46:29.521+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.276, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:46:29.523+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:46:29.541+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.018, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:46:29.541+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:46:29.609+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.067, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:46:29.609+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:46:29.661+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.051, "resultado": "ok", "registros": 26}
+{"ts": "2026-10-21T18:46:29.662+00:00", "nivel": "INFO", "run_id": "20261021T184625-cb91", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 4.461}
+{"ts": "2026-10-21T18:46:51.580+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792608409}
+{"ts": "2026-10-21T18:46:51.582+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:46:51.857+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.275, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:46:51.858+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:46:51.871+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.012, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:46:51.882+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:46:52.222+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.339, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:46:52.222+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:46:52.517+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.294, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:46:52.518+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:46:52.536+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.017, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:46:52.536+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:46:52.590+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.054, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:46:52.591+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:46:52.625+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.034, "resultado": "ok", "registros": 10}
+{"ts": "2026-10-21T18:46:52.634+00:00", "nivel": "INFO", "run_id": "20261021T184651-b684", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 1.05}
+{"ts": "2026-10-21T18:47:14.226+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "execucao iniciada", "modo": "completo", "seed": 1792608432}
+{"ts": "2026-10-21T18:47:14.228+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:47:14.338+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.109, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:47:14.339+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:47:18.172+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.832, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:47:18.192+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:47:18.521+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.328, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:47:18.521+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:47:18.804+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.282, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:47:18.806+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:47:18.831+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.025, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:47:18.832+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:47:18.893+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.06, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:47:18.893+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:47:18.920+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.027, "resultado": "ok", "registros": 27}
+{"ts": "2026-10-21T18:47:18.921+00:00", "nivel": "INFO", "run_id": "20261021T184714-6fd6", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 4.694}
+{"ts": "2026-10-21T18:47:40.614+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "execucao iniciada", "modo": "cache_silver", "seed": 1792608459}
+{"ts": "2026-10-21T18:47:40.615+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:47:40.687+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.071, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:47:40.688+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa iniciada: carregar_cache_silver", "etapa": "carregar_cache_silver"}
+{"ts": "2026-10-21T18:47:40.697+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa concluida: carregar_cache_silver", "etapa": "carregar_cache_silver", "duracao_s": 0.009, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:47:40.715+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:47:40.987+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.269, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:47:40.989+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:47:41.563+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.572, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:47:41.566+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:47:41.584+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.017, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:47:41.584+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:47:41.679+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.094, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:47:41.680+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:47:41.718+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.038, "resultado": "ok", "registros": 15}
+{"ts": "2026-10-21T18:47:41.719+00:00", "nivel": "INFO", "run_id": "20261021T184740-cb52", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 1.104}
+{"ts": "2026-10-21T18:48:03.573+00:00", "nivel": "INFO", "run_id": "20261021T184803-2942", "msg": "execucao iniciada", "modo": "completo", "seed": 1792608481}
+{"ts": "2026-10-21T18:48:03.574+00:00", "nivel": "INFO", "run_id": "20261021T184803-2942", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:48:03.679+00:00", "nivel": "INFO", "run_id": "20261021T184803-2942", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.105, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:48:03.680+00:00", "nivel": "INFO", "run_id": "20261021T184803-2942", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:48:07.585+00:00", "nivel": "INFO", "run_id": "20261021T184803-2942", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.901, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:48:07.641+00:00", "nivel": "INFO", "run_id": "20261021T184803-2942", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:48:09.648+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "execucao iniciada", "modo": "completo", "seed": 0}
+{"ts": "2026-10-21T18:48:09.649+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:48:09.692+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.042, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:48:09.692+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:48:12.739+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.044, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:48:12.751+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:48:13.032+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.279, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:48:13.032+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:48:13.351+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.318, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:48:13.353+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:48:13.374+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.021, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:48:13.374+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:48:13.423+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.048, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:48:13.423+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:48:13.460+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.037, "resultado": "ok", "registros": 17}
+{"ts": "2026-10-21T18:48:13.461+00:00", "nivel": "INFO", "run_id": "20261021T184809-269e", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 3.812}
+{"ts": "2026-10-21T18:48:15.935+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "execucao iniciada", "modo": "completo", "seed": 1792608494}
+{"ts": "2026-10-21T18:48:15.936+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:48:16.354+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.417, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:48:16.355+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:48:21.668+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 5.311, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:48:21.681+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:48:22.003+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.322, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:48:22.004+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:48:22.354+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.35, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:48:22.356+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:48:22.377+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.02, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:48:22.377+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:48:22.440+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.062, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:48:22.440+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:48:22.470+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.029, "resultado": "ok", "registros": 22}
+{"ts": "2026-10-21T18:48:22.471+00:00", "nivel": "INFO", "run_id": "20261021T184815-d3a0", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 6.536}
+{"ts": "2026-10-21T18:48:51.252+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "execucao iniciada", "modo": "completo", "seed": 0}
+{"ts": "2026-10-21T18:48:51.253+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:48:51.309+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.055, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:48:51.310+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:48:54.813+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.502, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:48:54.824+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:48:55.134+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.309, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:48:55.134+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:48:55.406+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.272, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:48:55.409+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:48:55.422+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.013, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:48:55.422+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:48:55.468+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.045, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:48:55.468+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:48:55.494+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.025, "resultado": "ok", "registros": 17}
+{"ts": "2026-10-21T18:48:55.495+00:00", "nivel": "INFO", "run_id": "20261021T184851-0c38", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 4.242}
+{"ts": "2026-10-21T18:48:57.393+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "execucao iniciada", "modo": "completo", "seed": 1792608536}
+{"ts": "2026-10-21T18:48:57.394+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T18:48:57.438+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.043, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:48:57.438+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T18:49:00.470+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 3.031, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T18:49:00.481+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T18:49:00.759+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.278, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T18:49:00.760+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T18:49:01.054+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.293, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:49:01.057+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T18:49:01.077+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.02, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T18:49:01.077+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T18:49:01.147+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.067, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T18:49:01.148+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T18:49:01.211+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.062, "resultado": "ok", "registros": 15}
+{"ts": "2026-10-21T18:49:01.211+00:00", "nivel": "INFO", "run_id": "20261021T184857-38c2", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 3.818}
+{"ts": "2026-10-21T19:16:23.742+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "execucao iniciada", "modo": "completo", "seed": 0}
+{"ts": "2026-10-21T19:16:23.751+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa iniciada: ingestao", "etapa": "ingestao"}
+{"ts": "2026-10-21T19:16:23.830+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa concluida: ingestao", "etapa": "ingestao", "duracao_s": 0.077, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T19:16:23.830+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa iniciada: extracao_features", "etapa": "extracao_features"}
+{"ts": "2026-10-21T19:16:29.908+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa concluida: extracao_features", "etapa": "extracao_features", "duracao_s": 6.076, "resultado": "ok", "registros": 2266}
+{"ts": "2026-10-21T19:16:29.922+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa iniciada: treino_modelo", "etapa": "treino_modelo"}
+{"ts": "2026-10-21T19:16:30.229+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa concluida: treino_modelo", "etapa": "treino_modelo", "duracao_s": 0.307, "resultado": "ok", "registros": 1812}
+{"ts": "2026-10-21T19:16:30.230+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa iniciada: predicao_teste", "etapa": "predicao_teste"}
+{"ts": "2026-10-21T19:16:30.684+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa concluida: predicao_teste", "etapa": "predicao_teste", "duracao_s": 0.454, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T19:16:30.686+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa iniciada: geracao_insights", "etapa": "geracao_insights"}
+{"ts": "2026-10-21T19:16:30.700+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa concluida: geracao_insights", "etapa": "geracao_insights", "duracao_s": 0.013, "resultado": "ok", "registros": 20}
+{"ts": "2026-10-21T19:16:30.701+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa iniciada: processamento_dados", "etapa": "processamento_dados"}
+{"ts": "2026-10-21T19:16:30.818+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa concluida: processamento_dados", "etapa": "processamento_dados", "duracao_s": 0.116, "resultado": "ok", "registros": 160}
+{"ts": "2026-10-21T19:16:30.819+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa iniciada: automacao_regras", "etapa": "automacao_regras"}
+{"ts": "2026-10-21T19:16:30.851+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "etapa concluida: automacao_regras", "etapa": "automacao_regras", "duracao_s": 0.032, "resultado": "ok", "registros": 17}
+{"ts": "2026-10-21T19:16:30.852+00:00", "nivel": "INFO", "run_id": "20261021T191623-7ffe", "msg": "execucao finalizada", "status": "sucesso", "duracao_s": 7.111}

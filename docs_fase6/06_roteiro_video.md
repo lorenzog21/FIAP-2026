@@ -27,4 +27,4 @@ Meta: **4 min 15 s** (255 s) + 10 s de abertura/encerramento. Gravação de tela
 
 - Conferir a duração (entre 3:00 e 5:00); cortar pausas.
 - Subir no YouTube como **não listado** ou no Drive com acesso "qualquer pessoa com o link"; abrir o link em janela anônima para testar.
-- Colar o link em `entrega/LINK_VIDEO.txt`.
+- Colar o link em `entrega/fase6/LINK_VIDEO.txt`.

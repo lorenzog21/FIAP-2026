@@ -2,3 +2,10 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Lotes de ingestao gerados pelas execucoes automaticas da Fase 7 (append-only e regeneraveis).
+# Os lotes anteriores continuam versionados; os logs e a analise (data/logs, data/analise) tambem.
+data/bronze/sensores/batch_2026102*/
+data/bronze/sensores/batch_2026103*/
+data/bronze/metadados_imagens_2026102*.csv
+data/bronze/metadados_imagens_2026103*.csv

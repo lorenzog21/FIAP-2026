@@ -1,0 +1,237 @@
+# FONTE UNICA da arquitetura do AgroSmart (Fase 7).
+# De daqui saem: o diagrama (docs_fase7/gerar_arquitetura_final.py), a tabela de componentes
+# (docs_fase7/01_arquitetura_final.md) e as verificacoes (scripts/verificar_entrega.py).
+# Camadas: fonte | ingestao | processamento | decisao | visualizacao | plataforma
+
+ignorar_codigo = ["scripts/capturas.py", "scripts/ci_local.sh", "docs_fase6/gerar_arquitetura.py",
+                  "docs_fase7/gerar_arquitetura_final.py", "docs_fase7/exportar_guia_avaliacao.py",
+                  "scripts/verificar_entrega.py", "scripts/resumo_ci.py", "entrega/fase7/6_pitch/gerar_slides.py",
+                  "docs_fase7/gerar_guia.py", "scripts/__init__.py", "simulacao/__init__.py", "empacotar.sh"]
+
+# termos = palavras que o roteiro do video deve usar para cobrir o componente (qualquer uma serve)
+[[componente]]
+id = "sensores"
+termos = ["sensores simulados", "sensores"]
+nome = "Sensores simulados"
+camada = "fonte"
+arquivos = ["simulacao/simulador_sensores.py"]
+tecnologia = "Python"
+entradas = "cenário de seca e umidade crescente"
+saidas = "data/bronze/stream_sensores/stream_simulado.csv"
+fase = 6
+resumo = ["fluxo de leituras a cada 2 s", "temperatura · solo · ar · luz", "formato CSV de Serial"]
+
+[[componente]]
+id = "talhoes"
+termos = ["talhões", "talhao"]
+nome = "Simulador de talhões"
+camada = "fonte"
+arquivos = ["ingest.py"]
+tecnologia = "Python"
+entradas = "cenários por talhão, lista de imagens"
+saidas = "data/bronze/sensores/batch_*/ e metadados_imagens_*.csv"
+fase = 5
+resumo = ["4 talhões, cenários distintos", "~5% de falhas propositais", "lotes append-only"]
+
+[[componente]]
+id = "imagens"
+termos = ["imagens de folhas", "imagens"]
+nome = "Imagens de folhas"
+camada = "fonte"
+arquivos = ["data/Apple___healthy", "data/Apple___Black_rot", "test"]
+tecnologia = "Dataset PlantVillage (maçã)"
+entradas = "fotos de drone ou câmera"
+saidas = "imagens .JPG"
+fase = 5
+resumo = ["saudável × Black Rot", "2.266 de treino, 20 de teste"]
+
+[[componente]]
+id = "bronze"
+termos = ["data lake", "bronze"]
+nome = "Data Lake · Bronze"
+camada = "ingestao"
+arquivos = ["data/bronze"]
+tecnologia = "Arquivos JSON/CSV"
+entradas = "saídas dos simuladores"
+saidas = "dado bruto + flag_anomalia"
+fase = 5
+resumo = ["dado como chegou", "versionado por lote", "ingestion_log.jsonl"]
+
+[[componente]]
+id = "ml"
+termos = ["visão computacional", "random forest"]
+nome = "Visão computacional + ML"
+camada = "processamento"
+arquivos = ["appleAnalisys.py"]
+tecnologia = "OpenCV, scikit-learn (Random Forest)"
+entradas = "imagens, metadados, sensores do Bronze"
+saidas = "data/silver/features_*.csv, data/gold/results.json"
+fase = 5
+resumo = ["% de área doente", "classe: saudável × Black Rot", "orquestra o pipeline"]
+
+[[componente]]
+id = "prep"
+termos = ["preparação", "limpeza"]
+nome = "Preparação de dados"
+camada = "processamento"
+arquivos = ["processar_dados.py"]
+tecnologia = "pandas"
+entradas = "sensores Bronze, results.json, fluxo simulado"
+saidas = "data/silver/sensores_*.csv, data/gold/dataset_dashboard.csv, diagnosticos.csv"
+fase = 6
+resumo = ["datas, tipos e unidades", "ausentes e outliers → interpolação", "risco_ambiental 0–1"]
+
+[[componente]]
+id = "regras"
+termos = ["motor de regras", "regras"]
+nome = "Motor de regras"
+camada = "decisao"
+arquivos = ["automacao.py"]
+tecnologia = "Python, pandas"
+entradas = "dataset_dashboard.csv, diagnosticos.csv"
+saidas = "alertas.json/csv, risco_folhas.csv, acoes_talhao.json"
+fase = 6
+resumo = ["4 regras de sensor → alertas", "risco da folha: baixo/médio/alto", "decisão por talhão"]
+
+[[componente]]
+id = "ia"
+termos = ["ia generativa", "diagnóstico"]
+nome = "IA generativa simulada"
+camada = "decisao"
+arquivos = ["generate_insights.py"]
+tecnologia = "Python (templates)"
+entradas = "results.json com contexto de sensor"
+saidas = "data/gold/insights.json"
+fase = 5
+resumo = ["diagnóstico em linguagem natural", "mesma fórmula de risco"]
+
+[[componente]]
+id = "ao_vivo"
+termos = ["alerta ao vivo", "ao vivo"]
+nome = "Alerta ao vivo"
+camada = "decisao"
+arquivos = ["demo_alerta_ao_vivo.py"]
+tecnologia = "Python"
+entradas = "fluxo Serial linha a linha"
+saidas = "console e data/gold/alertas_ao_vivo.jsonl"
+fase = 6
+resumo = ["regras no instante da leitura", "histerese contra oscilação"]
+
+[[componente]]
+id = "dashboard"
+termos = ["dashboard"]
+nome = "Dashboard analítico"
+camada = "visualizacao"
+arquivos = ["dashboard.py"]
+tecnologia = "Streamlit, Plotly"
+entradas = "camada Gold, alertas ao vivo, fluxo simulado"
+saidas = "interface web (porta 8501)"
+fase = 6
+resumo = ["valor atual e média", "decisão por talhão", "séries, risco, folhas, alertas"]
+
+[[componente]]
+id = "saude"
+termos = ["saúde do sistema"]
+nome = "Saúde do sistema"
+camada = "visualizacao"
+arquivos = ["pages/1_Saude_do_sistema.py"]
+tecnologia = "Streamlit, Plotly"
+entradas = "data/logs/execucoes.jsonl e app.log"
+saidas = "painel de status, histórico e log"
+fase = 7
+resumo = ["status operacional/falha", "duração por etapa", "log da aplicação"]
+
+[[componente]]
+id = "docker"
+termos = ["container", "docker"]
+nome = "Containers"
+camada = "plataforma"
+arquivos = ["Dockerfile", "docker-compose.yml", ".dockerignore", "requirements.txt"]
+tecnologia = "Docker, Docker Compose"
+entradas = "código e dados montados como volume"
+saidas = "serviços pipeline, dashboard, scheduler"
+fase = 7
+resumo = ["usuário sem root", "healthcheck", "agendador a cada N s"]
+
+[[componente]]
+id = "cicd"
+termos = ["devsecops", "pipeline"]
+nome = "Pipeline DevSecOps"
+camada = "plataforma"
+arquivos = [".github/workflows/ci.yml", "scripts/ci_local.sh", "tests", "pyproject.toml", "requirements-dev.txt"]
+tecnologia = "GitHub Actions, ruff, pytest, bandit, pip-audit, trivy"
+entradas = "código-fonte"
+saidas = "relatórios e imagem validada"
+fase = 7
+resumo = ["build + container", "qualidade e testes", "SAST, dependências, imagem"]
+
+[[componente]]
+id = "obs"
+termos = ["observabilidade", "logs"]
+nome = "Observabilidade"
+camada = "plataforma"
+arquivos = ["observabilidade.py", "scripts/status.py"]
+tecnologia = "Python (logs JSON, CSV)"
+entradas = "eventos de cada etapa e de cada folha"
+saidas = "data/logs/ (app.log, execucoes.jsonl, event_log_*.csv)"
+fase = 7
+resumo = ["log estruturado", "event log por etapa e por folha", "status e healthcheck"]
+
+[[componente]]
+id = "processo"
+termos = ["mineração", "event log"]
+nome = "Mineração de processos"
+camada = "plataforma"
+arquivos = ["analise_processo.py"]
+tecnologia = "pandas, SVG"
+entradas = "data/logs/event_log_*.csv"
+saidas = "data/analise/ (DFG, métricas, variantes, relatório)"
+fase = 7
+resumo = ["grafo de fluxo", "gargalos e variantes", "oportunidades"]
+
+# ---- fluxo de dados (setas do diagrama)
+[[fluxo]]
+de = "sensores"
+para = "bronze"
+[[fluxo]]
+de = "talhoes"
+para = "bronze"
+[[fluxo]]
+de = "imagens"
+para = "bronze"
+[[fluxo]]
+de = "bronze"
+para = "ml"
+[[fluxo]]
+de = "bronze"
+para = "prep"
+[[fluxo]]
+de = "ml"
+para = "prep"
+[[fluxo]]
+de = "ml"
+para = "regras"
+[[fluxo]]
+de = "prep"
+para = "regras"
+[[fluxo]]
+de = "ml"
+para = "ia"
+[[fluxo]]
+de = "bronze"
+para = "ao_vivo"
+[[fluxo]]
+de = "regras"
+para = "dashboard"
+[[fluxo]]
+de = "ia"
+para = "dashboard"
+[[fluxo]]
+de = "ao_vivo"
+para = "dashboard"
+[[fluxo]]
+de = "obs"
+para = "saude"
+[[fluxo]]
+de = "obs"
+para = "processo"

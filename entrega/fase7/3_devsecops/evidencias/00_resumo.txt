@@ -1,0 +1,13 @@
+RESUMO DO PIPELINE DEVSECOPS LOCAL (scripts/ci_local.sh)
+
+[OK   ] Build da imagem de runtime
+[OK   ] Build do estagio de CI
+[OK   ] Qualidade: ruff · All checks passed!
+[OK   ] Testes + cobertura (pytest) · 19 passed in 0.83s · cobertura 29%
+[OK   ] SAST: bandit · No issues identified.
+[OK   ] Dependencias: pip-audit · No known vulnerabilities found
+[OK   ] Smoke test: pipeline no container
+[OK   ] Smoke test: status do pipeline
+[OK   ] Scan da imagem: trivy (HIGH/CRITICAL) · agrosmart:local (debian 13.7) │ debian │ 0
+
+PIPELINE LOCAL: TUDO OK

@@ -46,8 +46,8 @@
             "image": "applehealthy8.JPG",
             "predicted_class": "Apple___healthy",
             "probabilities_ml": {
-                "Apple___healthy": 0.545,
-                "Apple___Black_rot": 0.455
+                "Apple___healthy": 0.54,
+                "Apple___Black_rot": 0.46
             },
             "real_infected_area_percentage": 0.0,
             "sensor_context": {
@@ -60,7 +60,7 @@
                 "flag_anomalia": false
             }
         },
-        "diagnostico_gerado": "A análise de imagem não encontrou sinais relevantes de Podridão Negra nesta folha. O modelo tem 55% de confiança nesse diagnostico. Manter inspeção periódica e boas práticas de circulação de ar entre as plantas."
+        "diagnostico_gerado": "A análise de imagem não encontrou sinais relevantes de Podridão Negra nesta folha. O modelo tem 54% de confiança nesse diagnostico. Manter inspeção periódica e boas práticas de circulação de ar entre as plantas."
     },
     {
         "entrada": {
@@ -361,8 +361,8 @@
             "image": "applehealthy7.JPG",
             "predicted_class": "Apple___healthy",
             "probabilities_ml": {
-                "Apple___healthy": 0.97,
-                "Apple___Black_rot": 0.03
+                "Apple___healthy": 0.975,
+                "Apple___Black_rot": 0.025
             },
             "real_infected_area_percentage": 0.0,
             "sensor_context": {
@@ -375,7 +375,7 @@
                 "flag_anomalia": false
             }
         },
-        "diagnostico_gerado": "O modelo classificou esta folha como saudavel, sem indícios visuais significativos da doença. O modelo tem 97% de confiança nesse diagnostico. Manter inspeção periódica e boas práticas de circulação de ar entre as plantas."
+        "diagnostico_gerado": "O modelo classificou esta folha como saudavel, sem indícios visuais significativos da doença. O modelo tem 98% de confiança nesse diagnostico. Manter inspeção periódica e boas práticas de circulação de ar entre as plantas."
     },
     {
         "entrada": {

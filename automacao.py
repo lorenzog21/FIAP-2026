@@ -16,6 +16,7 @@ import os
 import json
 import pandas as pd
 
+import observabilidade
 from generate_insights import _risco_ambiental, _recomendacao_por_severidade
 
 GOLD_DIR = os.path.join("data", "gold")
@@ -106,9 +107,15 @@ def risco_das_folhas(diag):
             "umidade_ar_pct": r["umidade_ar_pct"], "temperatura_c": r["temperatura_c"],
             "umidade_solo_pct": r["umidade_solo_pct"],
         } if pd.notna(r["umidade_ar_pct"]) else None
-        indice, nivel, acao, fatores = classificar_folha(
-            r["area_infectada_pct"], r["classe_prevista"], sensor
-        )
+        with observabilidade.folha(r["imagem"], "calcular_risco", "automacao.py", r["talhao_id"]) as ev:
+            indice, nivel, acao, fatores = classificar_folha(
+                r["area_infectada_pct"], r["classe_prevista"], sensor
+            )
+            ev["resultado"] = f"risco_{nivel}"
+        # desfecho da folha: encaminhar para acao ou arquivar
+        desfecho = "encaminhar_acao_prioritaria" if nivel in ("medio", "alto") else "arquivar_sem_acao_urgente"
+        with observabilidade.folha(r["imagem"], desfecho, "automacao.py", r["talhao_id"]):
+            pass
         linhas.append({
             "imagem": r["imagem"], "talhao_id": r["talhao_id"],
             "classe_prevista": r["classe_prevista"],

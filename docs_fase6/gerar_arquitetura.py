@@ -12,8 +12,9 @@ def card(x, y, w, h, titulo, linhas, cor, arquivo=None):
     add(f'<path d="M{x} {y+34} V{y+12} a12 12 0 0 1 12 -12 H{x+w-12} a12 12 0 0 1 12 12 V{y+34} z" fill="{cor}"/>')
     add(f'<text x="{x+14}" y="{y+23}" class="ct">{escape(titulo)}</text>')
     yy = y + 60
-    for l in linhas:
-        add(f'<text x="{x+14}" y="{yy}" class="cl">{escape(l)}</text>'); yy += 19
+    for texto in linhas:
+        add(f'<text x="{x+14}" y="{yy}" class="cl">{escape(texto)}</text>')
+        yy += 19
     if arquivo:
         tw = len(arquivo) * 7.2 + 16
         add(f'<rect x="{x+14}" y="{y+h-30}" width="{tw}" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0"/>')
@@ -32,7 +33,7 @@ add(f'<rect width="{W}" height="{H}" fill="#f8fafc"/>')
 add(f'<text x="{W/2}" y="40" text-anchor="middle" style="font-size:24px;font-weight:700;fill:#0f172a">AgroSmart · Arquitetura da plataforma (Fase 6)</text>')
 add(f'<text x="{W/2}" y="62" text-anchor="middle" style="font-size:13px;fill:#64748b">Da coleta no campo à decisão por talhão: sensores e imagens → Data Lake → processamento → automação → dashboard</text>')
 
-for x, w, t in [(30, 270, "1 · FONTES DE DADOS"), (370, 260, "2 · INGESTÃO"), (700, 270, "3 · PROCESSAMENTO"),
+for x, _w, t in [(30, 270, "1 · FONTES DE DADOS"), (370, 260, "2 · INGESTÃO"), (700, 270, "3 · PROCESSAMENTO"),
                 (1040, 250, "4 · DECISÃO AUTOMATIZADA"), (1350, 220, "5 · VISUALIZAÇÃO")]:
     add(f'<text x="{x}" y="100" class="col">{t}</text>')
 
@@ -69,8 +70,8 @@ add('<g transform="translate(30,730)">')
 for i, (c, t) in enumerate([("fonte", "Fonte de dados"), ("bronze", "Data Lake"), ("proc", "Processamento"), ("decisao", "Decisão automatizada"), ("viz", "Visualização")]):
     add(f'<rect x="{i*190}" y="0" width="16" height="16" rx="4" fill="{COR[c]}"/><text x="{i*190+24}" y="13" class="lg">{t}</text>')
 add('</g>')
-add(f'<text x="1570" y="743" text-anchor="end" class="lg">Execução: python appleAnalisys.py → streamlit run dashboard.py</text>')
-add(f'<text x="30" y="768" class="lg">1–3 coleta e catalogação · 4–5 leitura do Bronze · 6 diagnósticos para a preparação · 7–9 saídas do ML e dos dados limpos · 10–12 resultados para o dashboard · 13 log serial → alerta ao vivo</text>')
+add('<text x="1570" y="743" text-anchor="end" class="lg">Execução: python appleAnalisys.py → streamlit run dashboard.py</text>')
+add('<text x="30" y="768" class="lg">1–3 coleta e catalogação · 4–5 leitura do Bronze · 6 diagnósticos para a preparação · 7–9 saídas do ML e dos dados limpos · 10–12 resultados para o dashboard · 13 log serial → alerta ao vivo</text>')
 add('</svg>')
 open("arquitetura_fase6.svg", "w", encoding="utf-8").write("\n".join(out))
 print("svg gerado")

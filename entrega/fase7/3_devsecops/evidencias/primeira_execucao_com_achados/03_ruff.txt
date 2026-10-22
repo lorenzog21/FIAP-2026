@@ -1,0 +1,18 @@
+# Qualidade: ruff  (2026-10-21 20:38:05)
+# comando: docker run --rm agrosmart:ci ruff check .
+
+F841 Local variable `inicio_fim` is assigned to but never used
+  --> analise_processo.py:65:14
+   |
+63 | # ---------------------------------------------------------------- DFG
+64 | def dfg(df):
+65 |     arestas, inicio_fim = Counter(), defaultdict(list)
+   |              ^^^^^^^^^^
+66 |     for _, c in df.sort_values("inicio").groupby("case_id"):
+67 |         atv = list(c["atividade"])
+   |
+help: Remove assignment to unused variable `inicio_fim`
+
+Found 1 error.
+No fixes available (1 hidden fix can be enabled with the `--unsafe-fixes` option).
+RESULTADO: FALHA

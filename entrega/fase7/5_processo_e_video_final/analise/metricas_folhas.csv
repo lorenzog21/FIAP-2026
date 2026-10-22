@@ -1,0 +1,8 @@
+atividade,ocorrencias,media_s,mediana_s,p95_s,total_s,pct_do_tempo_total,erros
+classificar_folha,780,0.0291,0.0232,0.0532,22.7022,94.0,0
+extrair_atributos,780,0.0018,0.0015,0.0031,1.411,5.8,0
+gerar_diagnostico_texto,780,0.0,0.0,0.0001,0.0276,0.1,0
+associar_sensor,780,0.0,0.0,0.0,0.0165,0.1,0
+calcular_risco,780,0.0,0.0,0.0,0.0065,0.0,0
+arquivar_sem_acao_urgente,756,0.0,0.0,0.0,0.0001,0.0,0
+encaminhar_acao_prioritaria,24,0.0,0.0,0.0,0.0,0.0,0

@@ -93,4 +93,4 @@ Código: [`dashboard.py`](../dashboard.py) — `streamlit run dashboard.py`
 
 Filtros na lateral: talhões e severidade dos alertas.
 
-Capturas em `entrega/prints/`: `dashboard_topo.png` (KPIs, valor atual e média, decisão por talhão), `dashboard_series.png` (evolução dos sensores e mapa de risco), `dashboard_folhas.png` (folhas de maior risco), `dashboard_alertas.png` (alertas e recomendações) e `dashboard_alertas_ao_vivo.png` (painel ao vivo após a demo). Clipes em `entrega/videos/`: `dashboard_tour.webm` e `alerta_ao_vivo.webm`.
+Capturas em `entrega/fase6/prints/`: `dashboard_topo.png` (KPIs, valor atual e média, decisão por talhão), `dashboard_series.png` (evolução dos sensores e mapa de risco), `dashboard_folhas.png` (folhas de maior risco), `dashboard_alertas.png` (alertas e recomendações) e `dashboard_alertas_ao_vivo.png` (painel ao vivo após a demo). Clipes em `entrega/fase6/videos/`: `dashboard_tour.webm` e `alerta_ao_vivo.webm`.

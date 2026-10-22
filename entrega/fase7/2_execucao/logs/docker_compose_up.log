@@ -1,0 +1,27 @@
+# docker compose ps -a  (2026-10-21 20:25:22)
+NAME                  IMAGE             STATUS                      PORTS
+agrosmart-dashboard   agrosmart:local   Up 42 seconds (healthy)     0.0.0.0:8501->8501/tcp, [::]:8501->8501/tcp
+agrosmart-pipeline    agrosmart:local   Exited (0) 42 seconds ago   
+
+# docker image ls agrosmart:local
+REPOSITORY:TAG    SIZE
+agrosmart:local   1.01GB
+
+# usuario dentro do container
+uid=1000(agro) gid=1000(agro) groups=1000(agro)
+
+# docker compose logs pipeline
+Executando ingestão (camada Bronze)...
+[ingest] lote 20261021T182435: 160 leituras de sensor (10 flagadas para auditoria), 2286/2286 imagens catalogadas.
+Extraindo atributos das imagens de treino...
+2266 imagens válidas, 0 descartadas (camada Silver).
+Treinando o RandomForest...
+Analisando imagens de teste e gerando JSON (camada Gold)...
+Salvou 20 predições em data/gold/results.json (camada Gold)
+Gerando insights com IA generativa simulada...
+[insights] gerou 20 diagnosticos em data/gold/insights.json
+Processando dados para analise (Fase 6)...
+[processamento] fluxo simulado: 60 leituras, 0 corrigidas -> data/silver/sensores_stream.csv
+[processamento] 160 leituras, 10 corrigidas; 20 diagnosticos -> data/gold/dataset_dashboard.csv
+Executando automacao inteligente (motor de regras)...
+[automacao] 17 alertas de sensor, 20 folhas classificadas (0 de risco alto), 4 decisoes por talhao.

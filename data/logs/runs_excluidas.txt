@@ -1,0 +1,5 @@
+# Execucoes ignoradas pela analise de processo (o log original NAO e alterado).
+# formato: run_id  # motivo
+20261021T184112-14b3  # rotulada 1.1, mas gerada por imagem Docker sem a melhoria (build incorreto, corrigido em seguida)
+20261021T184123-cad6  # idem
+# REMOVIDA do log (nao so ignorada): 20261021T203010-dcf4 - unica execucao feita no host, com horario local; o restante do log esta em UTC

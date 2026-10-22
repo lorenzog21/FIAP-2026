@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1685 355" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<defs><marker id="s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#334155"/></marker></defs>
+<rect width="1685" height="355" fill="#f8fafc"/>
+<text x="842.5" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">Processo de execução do pipeline (caso = execução)</text>
+<text x="842.5" y="50" text-anchor="middle" font-size="12" fill="#64748b">cor = % do tempo total · borda vermelha = gargalo (extracao_features) · setas = nº de passagens</text>
+<path d="M235 127 C255.0 127,255.0 127,275 127" fill="none" stroke="#334155" stroke-width="2.8" marker-end="url(#s)"/>
+<text x="255.0" y="121.0" text-anchor="middle" font-size="11" fill="#0f172a" paint-order="stroke" stroke="#f8fafc" stroke-width="3">24×</text>
+<path d="M470 127 C490.0 127,490.0 127,510 127" fill="none" stroke="#334155" stroke-width="2.8" marker-end="url(#s)"/>
+<text x="490.0" y="121.0" text-anchor="middle" font-size="11" fill="#0f172a" paint-order="stroke" stroke="#f8fafc" stroke-width="3">24×</text>
+<path d="M705 127 C725.0 127,725.0 127,745 127" fill="none" stroke="#334155" stroke-width="4.0" marker-end="url(#s)"/>
+<text x="725.0" y="121.0" text-anchor="middle" font-size="11" fill="#0f172a" paint-order="stroke" stroke="#f8fafc" stroke-width="3">39×</text>
+<path d="M940 127 C960.0 127,960.0 127,980 127" fill="none" stroke="#334155" stroke-width="4.0" marker-end="url(#s)"/>
+<text x="960.0" y="121.0" text-anchor="middle" font-size="11" fill="#0f172a" paint-order="stroke" stroke="#f8fafc" stroke-width="3">39×</text>
+<path d="M1175 127 C1195.0 127,1195.0 127,1215 127" fill="none" stroke="#334155" stroke-width="4.0" marker-end="url(#s)"/>
+<text x="1195.0" y="121.0" text-anchor="middle" font-size="11" fill="#0f172a" paint-order="stroke" stroke="#f8fafc" stroke-width="3">39×</text>
+<path d="M1410 127 C1430.0 127,1430.0 127,1450 127" fill="none" stroke="#334155" stroke-width="4.0" marker-end="url(#s)"/>
+<text x="1430.0" y="121.0" text-anchor="middle" font-size="11" fill="#0f172a" paint-order="stroke" stroke="#f8fafc" stroke-width="3">39×</text>
+<path d="M235 127 C255.0 127,255.0 232,275 232" fill="none" stroke="#334155" stroke-width="2.2" marker-end="url(#s)"/>
+<text x="255.0" y="173.5" text-anchor="middle" font-size="11" fill="#0f172a" paint-order="stroke" stroke="#f8fafc" stroke-width="3">15×</text>
+<path d="M470 232 C490.0 232,490.0 127,510 127" fill="none" stroke="#334155" stroke-width="2.2" marker-end="url(#s)"/>
+<text x="490.0" y="173.5" text-anchor="middle" font-size="11" fill="#0f172a" paint-order="stroke" stroke="#f8fafc" stroke-width="3">15×</text>
+<rect x="40" y="95" width="195" height="64" rx="10" fill="#ffeed4" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="137" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">ingestao</text>
+<text x="137" y="137" text-anchor="middle" font-size="11" fill="#334155">39× · média 141.5 ms</text>
+<text x="137" y="152" text-anchor="middle" font-size="11" fill="#334155">4.1% do tempo</text>
+<rect x="275" y="95" width="195" height="64" rx="10" fill="#ff9563" stroke="#d64545" stroke-width="3"/>
+<text x="372" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">extracao_features</text>
+<text x="372" y="137" text-anchor="middle" font-size="11" fill="#334155">24× · média 3521.2 ms</text>
+<text x="372" y="152" text-anchor="middle" font-size="11" fill="#334155">63.3% do tempo</text>
+<rect x="275" y="200" width="195" height="64" rx="10" fill="#fff4db" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="372" y="224" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">carregar_cache_silver</text>
+<text x="372" y="242" text-anchor="middle" font-size="11" fill="#334155">15× · média 9.8 ms</text>
+<text x="372" y="257" text-anchor="middle" font-size="11" fill="#334155">0.1% do tempo</text>
+<rect x="510" y="95" width="195" height="64" rx="10" fill="#ffe7ca" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="607" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">treino_modelo</text>
+<text x="607" y="137" text-anchor="middle" font-size="11" fill="#334155">39× · média 311.1 ms</text>
+<text x="607" y="152" text-anchor="middle" font-size="11" fill="#334155">9.1% do tempo</text>
+<rect x="745" y="95" width="195" height="64" rx="10" fill="#ffd8b7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="842" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">predicao_teste</text>
+<text x="842" y="137" text-anchor="middle" font-size="11" fill="#334155">39× · média 659.0 ms</text>
+<text x="842" y="152" text-anchor="middle" font-size="11" fill="#334155">19.3% do tempo</text>
+<rect x="980" y="95" width="195" height="64" rx="10" fill="#fff3d9" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="1077" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">geracao_insights</text>
+<text x="1077" y="137" text-anchor="middle" font-size="11" fill="#334155">39× · média 38.0 ms</text>
+<text x="1077" y="152" text-anchor="middle" font-size="11" fill="#334155">1.1% do tempo</text>
+<rect x="1215" y="95" width="195" height="64" rx="10" fill="#fff2d8" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="1312" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">processamento_dados</text>
+<text x="1312" y="137" text-anchor="middle" font-size="11" fill="#334155">39× · média 63.1 ms</text>
+<text x="1312" y="152" text-anchor="middle" font-size="11" fill="#334155">1.8% do tempo</text>
+<rect x="1450" y="95" width="195" height="64" rx="10" fill="#fff3d9" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="1547" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">automacao_regras</text>
+<text x="1547" y="137" text-anchor="middle" font-size="11" fill="#334155">39× · média 37.4 ms</text>
+<text x="1547" y="152" text-anchor="middle" font-size="11" fill="#334155">1.1% do tempo</text>
+</svg>

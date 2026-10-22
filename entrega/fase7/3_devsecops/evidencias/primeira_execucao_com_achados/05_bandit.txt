@@ -1,0 +1,51 @@
+# SAST: bandit  (2026-10-21 20:38:08)
+# comando: docker run --rm agrosmart:ci bandit -r . -c pyproject.toml -ll
+
+[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	using config: pyproject.toml
+[main]	INFO	running on Python 3.12.15
+Run started:2026-10-21 18:38:09.274560
+
+Test results:
+>> Issue: [B324:hashlib] Use of weak MD5 hash for security. Consider usedforsecurity=False
+   Severity: High   Confidence: High
+   CWE: CWE-327 (https://cwe.mitre.org/data/definitions/327.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.6/plugins/b324_hashlib.html
+   Location: ./generate_insights.py:35:15
+34	def _seeded_rng(chave):
+35	    seed = int(hashlib.md5(chave.encode("utf-8")).hexdigest(), 16) % (2**32)
+36	    return random.Random(seed)
+
+--------------------------------------------------
+>> Issue: [B324:hashlib] Use of weak MD5 hash for security. Consider usedforsecurity=False
+   Severity: High   Confidence: High
+   CWE: CWE-327 (https://cwe.mitre.org/data/definitions/327.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.6/plugins/b324_hashlib.html
+   Location: ./ingest.py:41:15
+40	def _hash_int(chave):
+41	    return int(hashlib.md5(chave.encode("utf-8")).hexdigest(), 16)
+42	
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 1747
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 3
+		Medium: 0
+		High: 2
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 5
+Files skipped (0):
+RESULTADO: FALHA

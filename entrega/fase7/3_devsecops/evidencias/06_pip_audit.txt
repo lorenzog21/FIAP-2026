@@ -1,0 +1,5 @@
+# Dependencias: pip-audit  (2026-10-21 20:50:46)
+# comando: docker run --rm agrosmart:ci pip-audit -r requirements.txt
+
+No known vulnerabilities found
+RESULTADO: OK
